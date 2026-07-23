@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" width="320" height="90">
+  <defs>
+    <style>
+      .logo-text-dental { font-family: 'Plus Jakarta Sans', 'Outfit', system-ui, -apple-system, sans-serif; font-weight: 700; font-size: 34px; fill: #111111; letter-spacing: -0.5px; }
+      .logo-text-city { font-family: 'Plus Jakarta Sans', 'Outfit', system-ui, -apple-system, sans-serif; font-weight: 400; font-size: 34px; fill: #111111; letter-spacing: -0.5px; }
+    </style>
+  </defs>
+  <!-- Icon Emblem -->
+  <g transform="translate(5, 5)">
+    <!-- Outer Circle -->
+    <circle cx="40" cy="40" r="36" fill="none" stroke="#111111" stroke-width="3.5" />
+    <!-- Tooth Outline -->
+    <path d="M 40 16 
+             C 27 16, 20 25, 20 38 
+             C 20 50, 24 64, 29 74 
+             C 32 80, 35 81, 38 74 
+             C 39.5 70.5, 40 60, 40 60 
+             C 40 60, 40.5 70.5, 42 74 
+             C 45 81, 48 80, 51 74 
+             C 56 64, 60 50, 60 38 
+             C 60 25, 53 16, 40 16 Z" 
+          fill="none" stroke="#111111" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- Brand Text -->
+  <text x="96" y="52" class="logo-text-dental">Дентал <tspan class="logo-text-city">Сити</tspan></text>
+</svg>

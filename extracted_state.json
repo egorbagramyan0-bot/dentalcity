@@ -1,0 +1,3499 @@
+{
+  "config": {
+    "requestId": "1784649145937804-16491317171264760985-balancer-l7leveler-kubr-yp-sas-25-BAL",
+    "counters": {
+      "metrika": {
+        "maps": {
+          "id": 22227335
+        },
+        "metro": {
+          "id": 151356
+        },
+        "mapWidget": {
+          "id": 44120344
+        },
+        "businessOwnerAccount": {
+          "tycoon": {
+            "id": 39321485
+          }
+        }
+      },
+      "analytics": {
+        "dtype": "bebr",
+        "pid": 30,
+        "tables": {
+          "discoveryFeed": "discovery-feed-desktop-maps"
+        },
+        "url": "https://yandex.ru/clck/jclck/",
+        "sessionId": "1784649145937804-16491317171264760985-balancer-l7leveler-kubr-yp-sas-25-BAL"
+      }
+    },
+    "serviceIds": {
+      "geosuggest": "desktop-maps",
+      "menuManagerAdvertPage": "desktop_maps_main_2"
+    },
+    "hosts": {
+      "api": "https://api-maps.yandex.ru/",
+      "printerApi": "https://static-maps.yandex.ru/",
+      "maps": "https://yandex.ru/maps/",
+      "mapFrame": "https://yandex.ru/map-widget/",
+      "advertLoader": "https://yandex.ru/ads/system/context.js",
+      "advertMeta": "https://an.yandex.ru/meta",
+      "stvTiles": "https://0%d.core-stv-renderer.maps.yandex.net/2.x/tiles?l=stv&%c&v=%v&%l&format=png",
+      "stvTileRenderer": "https://vec0{{hostAlias}}.core-stv-renderer.maps.yandex.net/2.x/",
+      "vector3StvTiles": "https://vec0{{hostAlias}}.core-stv-renderer.maps.yandex.net/3.x/",
+      "staHotspotTiles": "https://core-stv-renderer.maps.yandex.net/2.x/tiles?l=stj&%c&v=%v&format=js",
+      "sprav": "https://yandex.ru/sprav/",
+      "phtRenderer": "https://core-pht-renderer.maps.yandex.net/3.x/",
+      "metro": "https://yandex.ru/metro/",
+      "nmaps": "https://n.maps.yandex.ru/",
+      "suggestApi": "https://suggest-maps.yandex.ru/",
+      "constructor": "https://yandex.ru/map-constructor/",
+      "apiPanoramaLocateService": "https://api-maps.yandex.ru/services/panoramas/",
+      "panoramasStaticApi": "https://static-pano.maps.yandex.ru/",
+      "panoramasTiles": "https://pano.maps.yandex.net/%s/%z.%x.%y",
+      "carparksTiles": "https://core-carparks-renderer-lots.maps.yandex.net/maps-rdr-carparks/tiles?l=carparks&%c&%l&v=%v",
+      "carparksTileRenderer": "https://core-carparks-renderer-lots.maps.yandex.net/",
+      "mapsUserAgreement": "https://yandex.ru/legal/maps_termsofuse/?lang={{lang}}",
+      "roadEventsRenderer": "https://core-road-events-renderer.maps.yandex.net/",
+      "passport": "https://passport.yandex.ru/",
+      "passportApi": "https://api.passport.yandex.ru/",
+      "photoUploadApi": "https://photo.upload.maps.yandex.ru/",
+      "qrApi": "https://qr2.yandex.net/",
+      "mapTilesTmpl": "{{rendererTiles}}tiles?l=map&%c&%l",
+      "mapjTilesTmpl": "{{rendererTiles}}tiles?l=mapj&%c&%l",
+      "sklTilesTmpl": "{{rendererTiles}}tiles?l=skl&%c&%l",
+      "skljTilesTmpl": "{{rendererTiles}}tiles?l=sklj&%c&%l",
+      "satTiles": "https://sat0%d.maps.yandex.net/tiles?l=sat&%c&%l",
+      "traffic": "https://core-jams-rdr-cache.maps.yandex.net/",
+      "trafficArchive": "https://core-jams-rdr-hist.maps.yandex.net/",
+      "trafficInfo": "https://core-jams-info.maps.yandex.net/",
+      "statCounter": "https://yandex.ru/clck/",
+      "mrcTiles": "https://core-nmaps-mrc-browser.maps.yandex.ru/tiles?l=mrce&%c",
+      "mrcpeTiles": "https://core-nmaps-mrc-browser.maps.yandex.ru/tiles?l=mrcpe&%c",
+      "mrcHotspotTiles": "https://core-nmaps-mrc-browser.maps.yandex.ru/features/hotspot?l=mrce&%c",
+      "mrcpeHotspotTiles": "https://core-nmaps-mrc-browser.maps.yandex.ru/features/hotspot?l=mrcpe&%c",
+      "mrcPlanner": "https://mrc-planner.maps.yandex-team.ru/",
+      "vectorTilesTmpl": "{{rendererTiles}}vmap2/tiles?lang={{lang}}&x={{x}}&y={{y}}&z={{z}}&zmin={{zmin}}&zmax={{zmax}}&v={{version}}",
+      "vectorImagesTmpl": "{{rendererTiles}}vmap2/icons?id={{id}}&scale={{scale}}",
+      "vectorMeshesTmpl": "{{rendererTiles}}vmap2/meshes?id={{id}}",
+      "vectorGlyphsTmpl": "{{rendererTiles}}vmap2/glyphs?lang={{lang}}&font_id={{fontId}}&range={{range}}",
+      "vectorRichModelsTmpl": "{{rendererTiles}}vmap2/models?id={{id}}&format=glb",
+      "vectorIndoorTilesTmpl": "{{rendererTiles}}indoor/tiles?lang={{lang}}&x={{x}}&y={{y}}&z={{z}}&zmin={{zmin}}&zmax={{zmax}}",
+      "vectorIndoorImagesTmpl": "{{rendererTiles}}indoor/icons?id={{id}}&scale={{scale}}",
+      "vectorIndoorMeshesTmpl": "{{rendererTiles}}indoor/meshes?id={{id}}",
+      "vectorIndoorGlyphsTmpl": "{{rendererTiles}}indoor/glyphs?lang={{lang}}&font_id={{fontId}}&range={{range}}",
+      "vectorIndoorPlansTmpl": "{{rendererTiles}}indoor/plans?id={{id}}",
+      "vectorVmap3TilesTmpl": "{{rendererTiles}}vmap3/tiles?lang={{lang}}&x={{x}}&y={{y}}&z={{z}}&zmin={{zmin}}&zmax={{zmax}}&v={{version}}",
+      "vectorVmap3GlyphsTmpl": "{{rendererTiles}}fonts/glyphs?lang={{lang}}&font_id={{fontId}}&range={{range}}&format=protobuf",
+      "vectorVmap3ImagesTmpl": "{{rendererTiles}}vmap3/icons?id={{id}}&scale={{scale}}",
+      "vectorVmap3MeshesTmpl": "{{rendererTiles}}vmap3/meshes?id={{id}}",
+      "vectorVmap3RichModelsTmpl": "{{rendererTiles}}vmap3/models?id={{id}}&format=glb",
+      "vectorVmap3IndoorPlansTmpl": "{{rendererTiles}}vmap3/plans?id={{id}}",
+      "vectorVmap3StylesTmpl": "{{rendererTiles}}style?protocol=3&service=maps",
+      "vectorFontListTmpl": "{{rendererTiles}}fonts/list?format=protobuf",
+      "vectorFontObjectsTmpl": "{{rendererTiles}}fonts/font?id={{fontId}}&format=ttf",
+      "realTimePoi": "https://real-time-poi.maps.yandex.ru/",
+      "rendererTiles": "https://core-renderer-tiles.maps.yandex.ru/",
+      "ugcPhotosProxy": "https://core-pht-proxy.maps.yandex.ru/",
+      "mrcUgcApi": "https://core-nmaps-mrc-ugc-back.maps.yandex.ru/",
+      "panoramasUploader": "https://pano.maps.yandex.ru/",
+      "taxiAuthProxy": "https://ya-authproxy.taxi.yandex.ru/",
+      "avatarsUrl": "https://avatars.mds.yandex.net/",
+      "xivaWS": "wss://push.yandex.ru/"
+    },
+    "locale": "ru_RU",
+    "realLocale": "ru_RU",
+    "lang": "ru",
+    "isRtl": false,
+    "hostsPostfix": "RU",
+    "domain": "yandex.ru",
+    "isYango": false,
+    "isSerpWebVerticals": false,
+    "query": {
+      "debug": [],
+      "orgpage": {
+        "id": "167367088369"
+      }
+    },
+    "baseUrl": "/maps",
+    "apiBaseUrl": "/maps",
+    "intentInfo": {
+      "baseUrl": "yandexmaps://",
+      "hostName": "maps.yandex.ru",
+      "aliasIntent": {
+        "baseUrl": "yandexnavi://",
+        "hostName": "maps.yandex.ru"
+      }
+    },
+    "originalUrl": "/maps/org/dental_siti/167367088369/",
+    "uatraits": {
+      "BrowserBase": "Chromium",
+      "BrowserBaseVersion": "120.0.0.0",
+      "BrowserEngine": "WebKit",
+      "BrowserEngineVersion": "537.36",
+      "BrowserName": "Chrome",
+      "BrowserVersion": "120.0.0.0",
+      "OSFamily": "Windows",
+      "OSName": "Windows 10",
+      "OSVersion": "10.0",
+      "isBrowser": true,
+      "isMobile": false,
+      "isTouch": false,
+      "x64": true,
+      "isPhone": false,
+      "isMessenger": false,
+      "isSearchApp": false
+    },
+    "cspNonce": "b746d55300bf43f2856ee96637129a22",
+    "hostConfig": {},
+    "errorBooster": {
+      "sendErrors": true,
+      "sendMetrics": true,
+      "project": "maps"
+    },
+    "origin": "https://yandex.ru",
+    "csrfToken": "25e29b4860e37093d438238ec2851701a3c5dac1:1784649146",
+    "xscriptCsrfToken": "y1db1391817df806adc892dc125443854",
+    "isUserFromPortal": false,
+    "isUserFromYandexSearch": false,
+    "isUserFromGoogle": false,
+    "isAliceIframe": false,
+    "isSerpAliceIframe": false,
+    "availableLangs": [
+      "ru"
+    ],
+    "currencyCode": "RUB",
+    "banner": {
+      "url": "//awaps.yandex.ru/0/9064/240400.js?ad=165485&pl=48685",
+      "blockIds": {
+        "home": {
+          "hd": "R-I-142300-221",
+          "sd": "R-I-142300-222"
+        },
+        "traffic": {
+          "hd": "R-I-142300-223",
+          "sd": "R-I-142300-224"
+        },
+        "comparison": "R-I-142300-58",
+        "auto": "R-I-142300-14",
+        "masstransit": "R-I-142300-15",
+        "pedestrian": "R-I-142300-16",
+        "taxi": "R-I-142300-37",
+        "bicycle": "R-I-142300-38",
+        "scooter": "R-I-142300-38",
+        "detailedRoute": "R-I-142300-17",
+        "orgpageUpperMiddle": "R-I-142300-493",
+        "orgpageMiddle": "R-I-142300-98",
+        "orgpageUpper": "R-I-265853-10",
+        "orgpageBottom": "R-I-265853-11",
+        "toponym": "R-I-142300-738",
+        "masstransitCard": {
+          "hd": "R-I-142300-225",
+          "sd": "R-I-142300-226"
+        },
+        "photoList": "R-I-142300-50",
+        "galleryPhoto": "R-I-142300-152",
+        "metroShort": "R-I-124536-4",
+        "metroLong": "R-I-124536-5",
+        "widget": "R-I-2141027-1",
+        "largeWidget": "R-I-2141027-2"
+      }
+    },
+    "staticHost": "//maps.yastatic.net/s3/front-maps-static/maps-front-maps/",
+    "pageMode": "orgpage",
+    "appVersion": "v2.2957.0",
+    "serverTime": "2026-07-21T15:52:26.083Z",
+    "routesDistributionServices": [
+      "2gis",
+      "yandex"
+    ],
+    "environment": "production",
+    "bookmarks": {
+      "url": "https://maps.yastatic.net/s3/front-maps-static/front-maps-bookmarks/8.6.0/build/yandex-maps-bookmarks.min.js"
+    },
+    "videos": {
+      "playerListSdkUrl": "https://maps.yastatic.net/yandex-video-player-iframe-api/js/list-sdk.js"
+    },
+    "fingerprint": {
+      "libUrl": "https://yandex.ru/captchapgrd"
+    },
+    "searchResultsCount": 25,
+    "enableTaxi": true,
+    "enableBooking": true,
+    "enableCollections": true,
+    "enableChatSupport": true,
+    "iframeCounter": false,
+    "tnsCounter": true,
+    "cloudApi": {
+      "url": "//cloud-api.yandex.ru/maps_common/"
+    },
+    "search": {
+      "snippets": [
+        "masstransit/2.x",
+        "panoramas/1.x",
+        "businessrating/1.x",
+        "businessimages/1.x",
+        "photos/2.x",
+        "videos/1.x",
+        "experimental/1.x",
+        "subtitle/1.x",
+        "visits_histogram/2.x",
+        "tycoon_owners_personal/1.x",
+        "tycoon_events/1.x",
+        "related_adverts/1.x",
+        "related_adverts_1org/1.x",
+        "city_chains/1.x",
+        "route_point/1.x",
+        "topplaces/1.x",
+        "metrika_snippets/1.x",
+        "place_summary/1.x",
+        "online_snippets/1.x",
+        "provider_data/1.x",
+        "service_orgs_experimental/1.x",
+        "business_awards_experimental/1.x",
+        "business_filter/1.x",
+        "histogram/1.x",
+        "attractions/1.x",
+        "potential_company_owners:user",
+        "pin_info/1.x",
+        "lavka/1.x",
+        "bookings/1.x",
+        "bookings_personal/1.x",
+        "trust_features/1.x",
+        "plus_offers_experimental/1.x",
+        "bookings_offers/1.x",
+        "discovery/1.x",
+        "toponym_discovery/1.x",
+        "relevant_discovery/1.x",
+        "visual_hints/1.x",
+        "matchedobjects/1.x",
+        "topobjects/1.x",
+        "org_offer/2.x",
+        "hotels_booking/1.x",
+        "stories_experimental/1.x",
+        "ugc_friends_likes/1.x",
+        "tycoon_promo_actions/1.x",
+        "route_to_choose/1.x",
+        "photogrammetry/1.x",
+        "tycoon_pinned_reviews/1.x",
+        "fuel/1.x",
+        "realty_experimental/2.x",
+        "hot_water/1.x",
+        "neurosummary",
+        "mentioned_on_site/1.x",
+        "showtimes/1.x",
+        "afisha_json_geozen/1.x",
+        "realty_buildings/1.x",
+        "media_flow_stories_content/1.x"
+      ],
+      "relatedSnippets": [
+        "photos/2.x",
+        "businessrating/1.x",
+        "related_places/1.x"
+      ]
+    },
+    "routes": {
+      "maxCount": 20,
+      "minCount": 2,
+      "maxB2BCount": 50,
+      "minOptimizeCount": 4
+    },
+    "feedback": {
+      "helpUrl": "//yandex.ru/support/maps/",
+      "panoramaHelpUrl": "//yandex.ru/support/maps/concept/panoramas.xml",
+      "geolocationHelpUrl": "//yandex.ru/support/common/browsers-settings/geolocation.xml",
+      "showForPoi": true,
+      "showConfidentialityComplaint": false,
+      "recipientEmail": "support@maps.yandex.ru",
+      "recipientEmailForDesign": "webmaps-revolution@yandex-team.ru",
+      "mobileRecipientEmail": "m-maps@support.yandex.ru",
+      "metroHelpUrl": "//yandex.ru/support/metro/",
+      "metroFeedbackUrl": "//yandex.ru/support/metro/troubleshooting/fb_metro.html",
+      "businessOwnerUrl": "//yandex.ru/business/priority-promo/web-maps-companies/"
+    },
+    "ugc": {
+      "impressionsFirstTab": false,
+      "showFriendsSuggest": true
+    },
+    "collections": {
+      "moderationRulesLink": "https://yandex.ru/support/reviews/ru/rules#rule"
+    },
+    "advert": {
+      "direct": {
+        "url": "//direct.yandex.ru/",
+        "searchParams": {
+          "add_type": "direct",
+          "direct_page_id": 670942
+        }
+      },
+      "distributionBlock": {
+        "maps": {
+          "id": "Y-A-290757-1"
+        }
+      },
+      "geoadv": {
+        "auditPixel": {
+          "domain": "desktop.yandex.maps"
+        }
+      }
+    },
+    "serviceName": "maps",
+    "bilet": {
+      "dealerUrl": "https://widget.tickets.yandex.ru/dealer/dealer.js",
+      "clientKey": "f9dc8480-b128-45b4-9f02-4bc980a0b9fe"
+    },
+    "share": {
+      "services": [
+        "vkontakte",
+        "ok",
+        "telegram"
+      ],
+      "discoveryServices": [
+        "telegram",
+        "ok",
+        "vkontakte"
+      ],
+      "imageSize": [
+        520,
+        440
+      ]
+    },
+    "social": {
+      "links": [
+        {
+          "type": "vkontakte",
+          "href": "https://vk.com/yandex.maps",
+          "readableHref": "vk.com/yandex.maps"
+        },
+        {
+          "type": "telegram",
+          "href": "https://t.me/mapsyandex",
+          "readableHref": "@mapsyandex"
+        },
+        {
+          "type": "zen",
+          "href": "https://zen.yandex.ru/yandexmaps",
+          "readableHref": "zen.yandex.ru/yandexmaps"
+        }
+      ]
+    },
+    "mobile": {
+      "downloadAppLink": "https://4.redirect.appmetrica.yandex.com/?appmetrica_tracking_id=1179421268290593269",
+      "appsIds": {
+        "ios": 313877526,
+        "android": "ru.yandex.yandexmaps"
+      },
+      "url": "https://mobile.yandex.ru/apps/maps/"
+    },
+    "apiManual": {
+      "url": "https://tech.yandex.ru/maps/",
+      "mapsApiUrl": "https://tech.yandex.ru/maps/mapsapi"
+    },
+    "business": {
+      "businessLandingUrl": "//business.yandex.ru/",
+      "enableHotelsBooking": false,
+      "enableEdadeal": false,
+      "enableRealty": false,
+      "enableReview": true,
+      "enableStories": true,
+      "enableAfisha": false,
+      "enablePromoStories": true
+    },
+    "lkb": {
+      "baseUrl": "https://yandex.ru/sprav/"
+    },
+    "passport": {
+      "url": "https://passport.yandex.ru"
+    },
+    "morda": {
+      "url": "https://yandex.ru"
+    },
+    "yaru": {
+      "url": "https://ya.ru"
+    },
+    "ruler": {
+      "maxCount": 50
+    },
+    "ugcCabinet": {
+      "url": "https://reviews.yandex.ru/ugcpub/cabinet"
+    },
+    "advertLandingUrl": "https://yandex.ru/business/priority-promo/web-maps-promo",
+    "businessLandingUrl": "https://business.yandex.ru/priority/landing_webview",
+    "advertLandingMetroUrl": "https://yandex.ru/adv/",
+    "becomeOwnerUrl": "https://yandex.ru/business/priority-promo/web-maps-company",
+    "agreementUrl": "https://yandex.ru/legal/maps_termsofuse/",
+    "confidentialPolicyUrl": "https://yandex.ru/legal/confidential/",
+    "metroAgreementUrl": "https://legal.yandex.ru/rules",
+    "rightHoldersUrl": "https://yandex.ru/legal/right_holders/",
+    "recommendationsLegalUrl": "https://yandex.ru/legal/recommendations/#index__geo",
+    "mrcLandingUrl": "//yandex.ru/promo/nmaps/get-app/?lang=ru",
+    "awardsUrl": {
+      "goodPlaceYear": "https://yandex.ru/project/maps/goodplace/"
+    },
+    "enableRoutesB2B": true,
+    "enableRoutesCargo": true,
+    "routesB2BUrl": "https://yandex.ru/routing/lite?utm_source=yandex&utm_medium=banner&utm_campaign=maps",
+    "routesB2BCourierUrl": "https://yandex.ru/courier/lite?utm_source=yandex&utm_medium=banner&utm_campaign=maps",
+    "provideCarrierDataUrl": "https://yandex.ru/promo/maps/transportpartners",
+    "yandexForms": {
+      "userMapsReportUrl": "https://forms.yandex.ru/surveys/12910258.3a7e9ede62d0f6d65252709a5f2c09239021082d/?iframe=1&map-url={{map_url}}&answer_non_profile_email_43415879={{user_email}}&theme={{theme}}&lang={{lang}}",
+      "bookmarksReportUrl": "https://forms.yandex.ru/surveys/13455194.470df48a7da773c7d39403697689554988639321/?iframe=1&map-url={{map_url}}&service=maps&theme={{theme}}&lang={{lang}}"
+    },
+    "yandexId": {
+      "termsOfUseUrl": "https://yandex.ru/legal/id_termsofuse",
+      "url": "https://id.yandex.ru"
+    },
+    "enableMobileDistribution": true,
+    "businessOwnerLink": "https://yandex.ru/sprav/companies",
+    "bebrRootNodeName": "maps_www",
+    "extraHosts": {
+      "avatarsMds": "//avatars.mds.yandex.net/get-{namespace}/{uid}/{size}"
+    },
+    "hideAdverts": false,
+    "plusLandingUrl": "https://plus.yandex.ru/",
+    "businessOwnerVerificationLink": "https://yandex.ru/sprav/verification/byPermalink/%s_id?utm_source=%s_service&utm_medium=%s_source",
+    "businessSomeCompanyOwnerVerificationLink": "https://yandex.ru/sprav/add?utm_source=%s_service&utm_medium=%s_source",
+    "businessOwnerAccountMediaRequirementsUrl": "https://yandex.ru/support/business-priority/manage/photos.html#requirements",
+    "enableBusinessOwnerAccount": false,
+    "fines": {
+      "soglasieHostname": "https://autofill.yandex.ru",
+      "soglasieScriptUrl": "https://maps.yastatic.net/s3/passport-sdk/autofill/v1/sdk-provider-latest.js",
+      "pay": {
+        "merchant": {
+          "id": "72360794-5752-4570-aad8-543ed3d22834",
+          "name": "passport-bills"
+        },
+        "version": 2,
+        "gateway": "mobimoney",
+        "gatewayMerchantId": "oplatagosuslug",
+        "env": "PRODUCTION",
+        "countryCode": "RU",
+        "currencyCode": "RUB",
+        "scriptSrc": "https://pay.yandex.ru/sdk/v1/pay.js",
+        "requiredFields": {
+          "billingContact": {
+            "email": true,
+            "name": true
+          }
+        }
+      }
+    },
+    "taxi": {
+      "urlTemplate": "//taxi.yandex.{domain}/order?gfrom={startLat},{startLon}&gto={endLat},{endLon}&tariff={tariffClass}&lang={lang}",
+      "mobileUrlTemplate": "//3.redirect.appmetrica.yandex.com/route?start-lat={startLat}&start-lon={startLon}&end-lat={endLat}&end-lon={endLon}&tariffClass={tariffClass}&domain={domain}&lang={lang}&appmetrica_tracking_id=818150690466563560",
+      "domain": "ru",
+      "mobileRef": 2334708,
+      "desktopRef": 2334692
+    },
+    "autoRu": {
+      "termsOfUseUrl": "https://yandex.ru/legal/garage/"
+    },
+    "pythia": {
+      "ownerId": "933e00b1-074b-4a9f-a53c-227a07026a07"
+    },
+    "font": {
+      "family": "YS Text",
+      "format": "woff2",
+      "urls": {
+        "500": "https://maps.yastatic.net/s3/home/fonts/ys/4/text-medium.woff2",
+        "800": "https://maps.yastatic.net/s3/home/fonts/ys/4/text-heavy.woff2",
+        "normal": "https://maps.yastatic.net/s3/home/fonts/ys/4/text-regular.woff2",
+        "bold": "https://maps.yastatic.net/s3/home/fonts/ys/4/text-bold.woff2"
+      }
+    },
+    "mapLocation": {
+      "center": [
+        39.777578,
+        47.226427599999994
+      ],
+      "bounds": [
+        [
+          39.7540925,
+          47.2105026
+        ],
+        [
+          39.8010635,
+          47.2423526
+        ]
+      ]
+    },
+    "mapType": "map",
+    "userRegion": {
+      "id": 99432,
+      "center": [
+        39.468344,
+        47.349482
+      ],
+      "span": [
+        0.508123,
+        0.337759
+      ],
+      "zoom": 11
+    },
+    "theme": "light",
+    "useSystemTheme": false,
+    "experiments": {
+      "boxes": "1610702,0,63;1499635,0,81;1486271,0,48;1631489,0,65;745391,0,24;1629389,0,35;1625732,0,60;1634846,0,18;972817,0,66;46450,0,43;1617683,0,8;1626663,0,65;1614741,0,68;1626601,0,10;663874,0,62;663818,0,3;1629678,0,68;1630287,0,37;1597819,0,24",
+      "cryptedBoxes": "FW5XcnL86337zH0ndXBFIqTh_t28oqTeWn7SRbyEohmLBz2Yavo_r3KmMtOMWPf0o9gcjTuB0AjSaWpjg3bu7cx84aosHy3sCbaLRvXyYDPzGjVHYb6Mkzbri0W4OVICFB4EI041d7MaU37Uvph1gjPJ1SQ__LhLZAtW6UO57OHdkxaHvap3BKhri7YApUWThvh9x190mEXFBjqAzD193eajw55NpH-UXabO7Y6zbyDMkOPSBRnpgCh4A3mq_JAjD-8P5E1Z4W_etjizhN8bC8qgMwRfimrWqGR_6UpWVi47UQAeDDU98AO_zdC7AEqk",
+      "configVersion": "18521",
+      "ui": {
+        "tile3dPing": true,
+        "centralBankCollaboration": true,
+        "flyoverAttractionsMskSpb": true,
+        "vectorRichModelsEnabled": true,
+        "businessDiscovery": true,
+        "vectorPpoiLoadingPriority": "high",
+        "vectorPpoiCollisionPriority": "high",
+        "poiRTContext": "poisearch",
+        "flyoverRealtyPopup": true,
+        "directPoi": true,
+        "directPpoiLoadingPriority": "high",
+        "directPpoiCollisionPriority": "low",
+        "directPoiBeltSize": "0",
+        "minRtPoiZoom": "13",
+        "friendsSuggestInReviewsButton": "blue",
+        "friendsSuggestInReviewsPosition": 4,
+        "ugcFriendsSuggestSubscribers": true,
+        "realTimePersonalPoiBackend": true,
+        "vectorVmap3": true,
+        "routePrice": true,
+        "panelWidth420": true,
+        "twoRubricRows": true,
+        "newDiscoveryHome": true,
+        "discoveryHomeIntents": true,
+        "discoveryHomeActions": true,
+        "mapModeFuture": true,
+        "hdRoutes": true,
+        "vectorMapType": "future-map",
+        "ugcShowAllRecommendations": true,
+        "ugcUserCardsWeb": true,
+        "tycoonEvents": true,
+        "vectorRichPointsEnabled": true,
+        "ugcProfileWebUpdate": true,
+        "useExperimentalColliding": true,
+        "disableTileColliding": true,
+        "useCollidingTextOptional": true,
+        "useCollidingCandidates": true,
+        "snippetPromo": true,
+        "discoveryFeedMode": true,
+        "tableBooking": true,
+        "experimentalEnableRailwayAnnotations": true,
+        "futuris_alice_path": true,
+        "locationSharingWeb": true,
+        "discoveryFeedEntryButton": true,
+        "flyoverFacade": true,
+        "vectorCaveatContext": true,
+        "vectorAggregatedVisibleObjectsLogger": true,
+        "ugcNewCollectionPage": true,
+        "ugcPublicProfileCollectionsTab": true,
+        "vectorMultizoom": true,
+        "agentWithoutAliceBranding": true,
+        "gasStationFuelAvailability": true,
+        "dummy_pron": true,
+        "serpBannerRedesign": true,
+        "newOffersData": true,
+        "offerIframeMode": "new-tab-noauth",
+        "isolateAppMountTimingAnalytics": true,
+        "advertBlocks": "toponym=R-I-142300-738"
+      },
+      "mtInfoParams": {},
+      "geoSearchParams": {
+        "experimental_business_show_exp_features": [
+          "cbrf"
+        ],
+        "experimental_partner-stat-id": [
+          "1122243"
+        ],
+        "search_add_snippet": [
+          "tycoon_events/1.x"
+        ],
+        "rearr": [
+          "scheme_Local/Geo/DiscoveryShutter/SocialBlock/Enabled=1",
+          "scheme_Local/Geo/DiscoveryShutter/SocialBlock/TextForPlural/ru=рекомендуют",
+          "scheme_Local/Geo/DiscoveryShutter/SocialBlock/TextForSingular/ru=рекомендует"
+        ],
+        "experimental_rearr": [
+          "scheme_Local/Geo/EnableRestaurantBookingsSnippets=1",
+          "scheme_Local/Geo/EnableFuelAvailabilityFilter=1"
+        ],
+        "experimental_experimental_exp_pay_offers": [
+          "1"
+        ]
+      },
+      "suggestParams": {},
+      "rendererParams": {
+        "experimental_ranking_mode_name": [
+          "default-web-ranking"
+        ],
+        "auction": [
+          "1"
+        ],
+        "experimental_enable_direct_info_logging": [
+          "1"
+        ],
+        "use_permalinks_for_direct_requests": [
+          "1"
+        ],
+        "direct_density": [
+          "auction_z14_byak_p0"
+        ],
+        "experimental_mm_local_rubricpoi_min_zoom": [
+          "13"
+        ],
+        "experimental_mm_local_photopoi_min_zoom": [
+          "13"
+        ],
+        "experimental_mm_photopoi_min_zoom": [
+          "13"
+        ],
+        "experimental_mm_rubricpoi_min_zoom": [
+          "13"
+        ]
+      },
+      "routerParams": {},
+      "ugcFeedParams": {},
+      "menuParams": {}
+    },
+    "layers": {
+      "map": {
+        "version": "26.07.20-0~b:260630145600~ia:26.05.27-0~ib:26.07.21-4",
+        "zoomRange": [
+          2,
+          21
+        ]
+      },
+      "sat": {
+        "version": "3.2196.0",
+        "zoomRange": [
+          2,
+          21
+        ]
+      },
+      "skl": {
+        "version": "26.07.20-0~b:260630145600~ia:26.05.27-0~ib:26.07.21-4",
+        "zoomRange": [
+          2,
+          21
+        ]
+      },
+      "stv": {
+        "version": "2026.07.21.12.50-1_26.07.21-0-30423",
+        "zoomRange": [
+          6,
+          21
+        ]
+      },
+      "pht": {
+        "version": "2026.07.07.16.25.52.new",
+        "zoomRange": [
+          2,
+          21
+        ]
+      },
+      "trf": {
+        "version": "2026.07.21.15.51.00",
+        "zoomRange": [
+          1,
+          21
+        ]
+      },
+      "trfe": {
+        "version": "2026.07.21.15.51.00",
+        "zoomRange": [
+          1,
+          21
+        ]
+      },
+      "carparks": {
+        "version": "20260721-130008",
+        "zoomRange": [
+          14,
+          21
+        ]
+      },
+      "mrc": {
+        "version": "26.07.20-64801364",
+        "zoomRange": [
+          5,
+          22
+        ]
+      },
+      "mrcpe": {
+        "version": "26.07.20-64801364",
+        "zoomRange": [
+          5,
+          22
+        ]
+      },
+      "realTimePoi": {
+        "version": "7a5b197647d376d7bce00455d4852f5481db067a/26.07.21-0-30423/cgi_params:[[banned_permalinks:112526683909,217363889659,28411133695,68525569337,86661987655,8853124773,8920733883,93695694067,94360098008,97403284033,99153992717,99819432150],[experimental_use_avatars_service:true],[internal_proto:true]]/brand_icons:26.07.21-4/user_profiles:[1784625474576000,PT_DYNAMIC:2026-07-21T15:30:04.924335Z]/photo_archive:1783893619000/its_file_hash:GM2GCYLEHFRTIY3CGA4DMYLCHEZGKNBVHE4DGZLGG43TOMZSGY2Q;93042621e77aff9f0de7cf62cb058ad3e7daae5e/cgi_params:[[experimental_use_avatars_service:true],[internal_proto:true]]/brand_icons:26.07.21-4/its_file_hash:HE4TSMJUMI4TGMTCMQZTOYJVGBRDSOBTMM2WKN3DHEYGCZJZGNRA",
+        "zoomRange": [
+          13,
+          21
+        ]
+      }
+    },
+    "isVectorEnabled": true,
+    "bunker": {
+      "disableFines": false,
+      "disableFinesMsd": false,
+      "disableFinesOriginal": true,
+      "disableFinesVrcUiScenario": true,
+      "disableParkingMts": true,
+      "disableTopupParkingBalance": true,
+      "webviewFutureMap": true,
+      "disablePerformanceProductAdvertSign": true,
+      "disableSsr": false,
+      "disableVector": {
+        "mobile": false,
+        "desktop": false
+      },
+      "disableAdsMapTiles": false,
+      "disableBookmarksInt": false,
+      "disablePersonalizedPoi": false,
+      "disableGeoproductTopPhoto": false,
+      "disableBookingAdvertSplit": false,
+      "disableCoronaControl": true,
+      "a11y": {
+        "disableFeatureFeedback": false,
+        "disableReviews": false,
+        "disablePhotos": false
+      },
+      "theme": {
+        "settingByCookie": true,
+        "settingBySystem": true
+      },
+      "disableDarkTheme": {
+        "mobile": false,
+        "desktop": false
+      },
+      "enabledBookingCalendarApps": {
+        "maps": {
+          "Android": "10.9.1"
+        }
+      },
+      "enablePhonesOnboarding": {
+        "navi": {
+          "Android": false,
+          "iOS": false
+        },
+        "maps": {
+          "Android": false,
+          "iOS": false
+        }
+      },
+      "collectionUserApprovalTexts": {
+        "singleListTitle": "Разрешаете опубликовать ваш список мест?",
+        "singleListDescription": "Пользователи Карт смогут увидеть ваш список мест «{{list}}» и вдохновиться идеями",
+        "manyListsTitle": "Отметьте списки, которые разрешаете опубликовать",
+        "manyListsDescription": "Другие пользователи Карт смогут просматривать их и вдохновляться идеями",
+        "thanksTitle": "Спасибо, вы великолепны!",
+        "thanksDescription": "Это поможет пользователям Карт открыть для себя что-то новое",
+        "thanksButton": "Всегда пожалуйста",
+        "approveButton": "Разрешить",
+        "cancelButton": "Закрыть"
+      },
+      "discoveryFeedTexts": {
+        "onboarding": {
+          "title": "Встречайте ленту",
+          "text": "Лента – экспериментальный способ поиска мест в приложении. Лента призвана облегчить поиск интересных мест в городе<br/><br/>Вы в числе тех, кто получил доступ к ней первым. Попробуйте найти для себя что-то интересное, а мы будем рады обратной связи",
+          "buttonText": "Ого"
+        }
+      },
+      "routePriceTexts": {
+        "en": {
+          "title": "Toll road: {price}",
+          "content": "The price estimate is calculated for a car less than 2 meters high at the time of leaving the toll section without a transponder.<br />Tariff data provided by toll road operators",
+          "linkText": "Learn more about pricing plans",
+          "linkUrl": "https://yandex.ru/project/maps/yandex_promo/eng"
+        },
+        "ru": {
+          "title": "Платная дорога: {price}",
+          "content": "Цена рассчитана для автомобиля высотой менее 2 метров без транспондера на момент выезда с платного участка.<br />Данные о тарифах предоставлены компаниями-операторами платных дорог",
+          "linkText": "Подробнее о тарифах",
+          "linkUrl": "https://yandex.ru/project/maps/yandex_promo"
+        }
+      },
+      "storytellingGptTexts": {
+        "ru": {
+          "text": "Создано Alice AI на основе отзывов"
+        },
+        "en": {
+          "text": "Created by Alice AI based on reviews"
+        }
+      },
+      "storytellingGenerativeTexts": {
+        "ru": {
+          "text": "Создано __aliceAiIcon Alice AI на основе отзывов"
+        },
+        "en": {
+          "text": "Created by __aliceAiIcon Alice AI based on reviews"
+        }
+      },
+      "disableSurveys": false,
+      "extendedSuggest": {
+        "regions": [
+          225
+        ],
+        "rubrics": [
+          186340601594,
+          184105804
+        ]
+      },
+      "disableSnippetPromo": false,
+      "availableHistoryDomains": {
+        "taxi": [
+          "yandex.ru",
+          "yandex.com",
+          "yandex.uz",
+          "yandex.kz",
+          "yandex.by"
+        ],
+        "refuel": [
+          "yandex.ru"
+        ]
+      },
+      "scooters": {
+        "action": {
+          "type": "story",
+          "id": "d7c0fb8e-1b81-48e1-b07d-14026944cb2e"
+        },
+        "text": "Самокатный этикет: катаемся безопасно",
+        "buttonText": "Подробнее"
+      },
+      "businessCardMichelinUrl": "https://yandex.ru/promo/eda/michelin_guide",
+      "zapravkiPromo": {
+        "enabled": false,
+        "buttonContent": "Подробнее",
+        "trafficButtonContent": "Показать",
+        "text": "Заправляйтесь в Картах — первые 100 л со скидкой 2 ₽/л",
+        "href": "https://yandex.ru/promo/maps/zapravki/index_action?utm_source=maps&utm_medium=distribution&utm_campaign=fuel_on_maps&utm_content=fuel_card_banner",
+        "iconUrl": ""
+      },
+      "routesPromo": {
+        "banner": {
+          "text": "Следите за общественным транспортом в приложении Карт",
+          "buttonText": "Скачать",
+          "url": "https://4.redirect.appmetrica.yandex.com/build_route_on_map?appmetrica_tracking_id=748922429992101554&utm_medium=routesbanner&utm_content=main",
+          "target": "_blank"
+        }
+      },
+      "profilePromo": {
+        "banner": {
+          "version": 1,
+          "url": "http://punkorama.ru/",
+          "image": {
+            "light": "https://avatars.mds.yandex.net/get-bunker/56833/18e2fb46163511f1ae7da655cf22d617/orig",
+            "dark": "https://avatars.mds.yandex.net/get-bunker/56833/18e2fb46163511f1ae7da655cf22d617/orig"
+          },
+          "color": {
+            "light": "#100e15",
+            "dark": "#100e15"
+          }
+        }
+      },
+      "allowDesignFeedback": true,
+      "tooltipConfigs": {
+        "promo_public_settings": {
+          "priority": 1,
+          "maxCount": 1,
+          "oncePerSession": true
+        },
+        "promo": {
+          "priority": 5,
+          "maxCount": 999999,
+          "oncePerSession": false
+        },
+        "user-control-desktop": {
+          "priority": -1,
+          "maxCount": 3
+        },
+        "user-control-mobile": {
+          "priority": -1,
+          "maxCount": 3
+        },
+        "potential-owner": {
+          "priority": 3,
+          "maxCount": 999999,
+          "oncePerSession": false
+        },
+        "suggested-user": {
+          "priority": 2,
+          "maxCount": 999999,
+          "oncePerSession": false
+        },
+        "timeDependentNight": {
+          "priority": 1,
+          "maxCount": 2,
+          "oncePerSession": true
+        },
+        "promo_ugc_profile": {
+          "priority": 1,
+          "maxCount": 2,
+          "oncePerSession": true
+        },
+        "realty-tab": {
+          "priority": 1,
+          "maxCount": 3,
+          "oncePerSession": true
+        },
+        "tilt-rotate": {
+          "priority": 6,
+          "maxCount": 3,
+          "oncePerSession": false
+        },
+        "discovery-feed-mode-switcher": {
+          "priority": 1,
+          "maxCount": 3,
+          "oncePerSession": true
+        }
+      },
+      "tooltipTexts": {
+        "darkThemeDesktop": {
+          "title": "Теперь можно включить тёмную тему",
+          "button": "Включить"
+        },
+        "darkThemeTouchesSystem": {
+          "title": "Включена тёмная тема — как в настройках телефона",
+          "button": "Изменить тему"
+        },
+        "userControlDesktop": {
+          "title": "Зайдите в профиль, чтобы создать список мест"
+        },
+        "userControlMobile": {
+          "title": "Зайдите в профиль, чтобы создать список мест"
+        },
+        "realtyTab": {
+          "title": "Больше подробностей",
+          "text": "Узнайте, как выглядят квартиры и что ещё есть в жилом комплексе"
+        },
+        "publicProfileTitle": {
+          "title": "Нажмите на фотографию, чтобы настроить публичность профиля"
+        },
+        "discoveryFeedModeSwitcher": {
+          "title": "Подобрали места, которые подходят именно вам. Нажмите"
+        }
+      },
+      "flyoverTexts": {
+        "control": "Обзор 360&deg;",
+        "tooltip": "Взгляните на ЖК<br />с разных сторон",
+        "disclaimer": "Реклама. Визуализация создана на основе проектных данных<br/>застройщика и может отличаться от готовой постройки.",
+        "backButton": "Назад ко всем корпусам",
+        "badge": "3D макет"
+      },
+      "enableLocationSharingCard": true
+    },
+    "landing": {
+      "seoname": "dental_siti",
+      "orgId": 167367088369,
+      "id": "orgpage"
+    },
+    "promo": null,
+    "mapRegion": {
+      "id": 39,
+      "type": 6,
+      "capitalId": 0,
+      "hierarchy": [
+        225,
+        11029,
+        39
+      ],
+      "seoname": "rostov-na-donu",
+      "bounds": [
+        [
+          39.555104,
+          47.127347962045626
+        ],
+        [
+          39.882521999999994,
+          47.31670096204562
+        ]
+      ],
+      "longitude": 39.718813,
+      "latitude": 47.222109,
+      "zoom": 12,
+      "names": {
+        "ablative": "",
+        "accusative": "Ростов‑на‑Дону",
+        "dative": "Ростову‑на‑Дону",
+        "directional": "",
+        "genitive": "Ростова‑на‑Дону",
+        "instrumental": "Ростовом‑на‑Дону",
+        "locative": "",
+        "nominative": "Ростов‑на‑Дону",
+        "preposition": "в",
+        "prepositional": "Ростове‑на‑Дону"
+      }
+    },
+    "meta": {
+      "title": "Дентал Сити, стоматологическая клиника, ул. Богданова, 79, Нахичевань, Ростов-на-Дону — Яндекс Карты",
+      "breadcrumbs": [
+        {
+          "name": "Карты",
+          "type": "root",
+          "url": "https://yandex.ru/maps/"
+        },
+        {
+          "name": "Ростов‑на‑Дону",
+          "type": "region",
+          "url": "https://yandex.ru/maps/39/rostov-na-donu/",
+          "region": {
+            "center": [
+              39.718813,
+              47.222109
+            ],
+            "zoom": 12
+          }
+        },
+        {
+          "category": {
+            "id": "184106132",
+            "name": "Стоматологическая клиника",
+            "class": "dental",
+            "seoname": "dental_clinic",
+            "pluralName": "Стоматологии"
+          },
+          "name": "Стоматологии",
+          "type": "category",
+          "url": "https://yandex.ru/maps/39/rostov-na-donu/category/dental_clinic/184106132/"
+        }
+      ]
+    },
+    "advertsOnMapConfig": {
+      "groups": []
+    },
+    "myBusiness": {
+      "eventsCount": {
+        "count": 0
+      }
+    },
+    "mobileTechInfo": {},
+    "discoveryHomeFeedConfig": {
+      "regions": [
+        {
+          "boundingBoxes": [
+            [
+              [
+                19.484761,
+                54.318205
+              ],
+              [
+                22.886575,
+                55.381319
+              ]
+            ],
+            [
+              [
+                26.580233,
+                41.198849
+              ],
+              [
+                191.128018,
+                81.885924
+              ]
+            ]
+          ],
+          "enabled": true
+        },
+        {
+          "boundingBoxes": [
+            [
+              [
+                19.356,
+                44.0133
+              ],
+              [
+                21.2446,
+                45.3661
+              ]
+            ]
+          ],
+          "enabled": true
+        }
+      ],
+      "intentSets": [
+        {
+          "intents": [
+            {
+              "slug": "default",
+              "caption": "Все"
+            },
+            {
+              "slug": "seasonal_summer_june",
+              "caption": "☀️ Лето"
+            },
+            {
+              "slug": "hungry",
+              "caption": "🥗 Поесть"
+            },
+            {
+              "slug": "sight",
+              "caption": "🌳 Погулять"
+            },
+            {
+              "slug": "with_kids",
+              "caption": "🧸️ С детьми"
+            },
+            {
+              "slug": "leisure",
+              "caption": "🎤 Развлечься"
+            },
+            {
+              "slug": "drink",
+              "caption": "🍷 Выпить"
+            }
+          ],
+          "enabled": true,
+          "language": "ru",
+          "experiments": {
+            "withKids": [
+              {
+                "slug": "default",
+                "caption": "Все"
+              },
+              {
+                "slug": "with_kids",
+                "caption": "С детьми"
+              },
+              {
+                "slug": "hungry",
+                "caption": "Поесть"
+              },
+              {
+                "slug": "drink",
+                "caption": "Выпить"
+              },
+              {
+                "slug": "leisure",
+                "caption": "Развлечься"
+              },
+              {
+                "slug": "sight",
+                "caption": "Погулять"
+              }
+            ],
+            "withEvents": [
+              {
+                "slug": "default",
+                "caption": "Все"
+              },
+              {
+                "slug": "events",
+                "caption": "👋 События"
+              }
+            ]
+          }
+        },
+        {
+          "intents": [
+            {
+              "slug": "default",
+              "caption": "All"
+            },
+            {
+              "slug": "seasonal_summer_june",
+              "caption": "☀️ Summer"
+            },
+            {
+              "slug": "hungry",
+              "caption": "🥗 Dinner out"
+            },
+            {
+              "slug": "sight",
+              "caption": "🌳 See sights"
+            },
+            {
+              "slug": "with_kids",
+              "caption": "🧸️ With kids"
+            },
+            {
+              "slug": "leisure",
+              "caption": "🎤 Have fun"
+            },
+            {
+              "slug": "drink",
+              "caption": "🍷 Get a drink"
+            }
+          ],
+          "enabled": true,
+          "language": "en",
+          "experiments": {
+            "withKids": [
+              {
+                "slug": "default",
+                "caption": "All"
+              },
+              {
+                "slug": "with_kids",
+                "caption": "With kids"
+              },
+              {
+                "slug": "hungry",
+                "caption": "Dinner out"
+              },
+              {
+                "slug": "drink",
+                "caption": "Get a drink"
+              },
+              {
+                "slug": "leisure",
+                "caption": "Have fun"
+              },
+              {
+                "slug": "sight",
+                "caption": "See sights"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "stack": [
+    {
+      "mode": "orgpage",
+      "results": {
+        "requestId": "1784649145972002-2908468104-addrs-upper-yp-123",
+        "requestSerpId": "1784649145972002-2908468104-addrs-upper-yp-123",
+        "requestContext": "ZAAAAAgBEAAaKAoSCQAAAAAAkHZAEQAAAAAAoGZAEhIJAAAAAAAA8L8RAAAAAAAA8L8iAQEoCjgAQP7//////////wFIAWoAnQHNzMw9oAEAqAEAvQHv3uhIwgEG8bHsvu8EggIAigIAkgIAmgIMZGVza3RvcC1tYXBz",
+        "requestQuery": "empty",
+        "requestCorrectedQuery": "empty",
+        "requestBounds": [
+          [
+            37.048427,
+            55.43644866
+          ],
+          [
+            38.175903,
+            56.04690174
+          ]
+        ],
+        "displayType": "multiple",
+        "totalResultCount": 1,
+        "requestResults": 1,
+        "items": [
+          {
+            "type": "business",
+            "requestId": "1784649145972002-2908468104-addrs-upper-yp-123",
+            "index": 0,
+            "analyticsId": "0",
+            "title": "Дентал Сити",
+            "description": "ул. Богданова, 79, Нахичевань, Ростов-на-Дону",
+            "address": "ул. Богданова, 79, Нахичевань, Ростов-на-Дону",
+            "coordinates": [
+              39.777578,
+              47.22643
+            ],
+            "displayCoordinates": [
+              39.777578,
+              47.22643
+            ],
+            "bounds": [
+              [
+                39.773233,
+                47.223467
+              ],
+              [
+                39.781443,
+                47.22906
+              ]
+            ],
+            "uri": "ymapsbm1://org?oid=167367088369",
+            "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTY3MzY3MDg4MzY5",
+            "requestSerpId": "1784649145972002-2908468104-addrs-upper-yp-123",
+            "id": "167367088369",
+            "metro": [],
+            "stops": [
+              {
+                "id": "stop__10058898",
+                "name": "Красный Аксай",
+                "distance": "219 м",
+                "distanceValue": 219.211,
+                "coordinates": [
+                  39.7748446,
+                  47.2260113
+                ],
+                "type": "common"
+              },
+              {
+                "id": "stop__10058846",
+                "name": "35-я линия",
+                "distance": "530 м",
+                "distanceValue": 525.753,
+                "coordinates": [
+                  39.774348626,
+                  47.229362174
+                ],
+                "type": "common"
+              },
+              {
+                "id": "stop__10059753",
+                "name": "38-я линия",
+                "distance": "1,06 км",
+                "distanceValue": 1061.58,
+                "coordinates": [
+                  39.773341699,
+                  47.23441395
+                ],
+                "type": "common"
+              },
+              {
+                "id": "stop__10059316",
+                "name": "Площадь Свободы",
+                "distance": "1,43 км",
+                "distanceValue": 1425.61,
+                "coordinates": [
+                  39.764434556,
+                  47.229117921
+                ],
+                "type": "common"
+              }
+            ],
+            "photos": {
+              "count": 33,
+              "urlTemplate": "https://avatars.mds.yandex.net/get-altay/17651669/2a0000019c9f4cc99849b6e496d2b17ea251/%s",
+              "items": [
+                {
+                  "urlTemplate": "https://avatars.mds.yandex.net/get-altay/17651669/2a0000019c9f4cc99849b6e496d2b17ea251/%s",
+                  "alt": "Стоматологическая клиника Дентал Сити, Ростов‑на‑Дону, фото"
+                },
+                {
+                  "urlTemplate": "https://avatars.mds.yandex.net/get-altay/20105000/2a0000019df1d0eb107ea8a994b569f7faa8/%s",
+                  "alt": "Стоматологическая клиника Дентал Сити, Ростов‑на‑Дону, фото"
+                },
+                {
+                  "urlTemplate": "https://avatars.mds.yandex.net/get-altay/19534558/2a0000019bed78c0db072b96ab33c003f3ac/%s",
+                  "alt": "Стоматологическая клиника Дентал Сити, Ростов‑на‑Дону, фото"
+                },
+                {
+                  "urlTemplate": "https://avatars.mds.yandex.net/get-altay/18150755/2a0000019c9f4c776be183d944dae5d96c64/%s",
+                  "alt": "Стоматологическая клиника Дентал Сити, Ростов‑на‑Дону, фото"
+                },
+                {
+                  "urlTemplate": "https://avatars.mds.yandex.net/get-altay/17754824/2a0000019beda5d944f00fdd564d93b498dc/%s",
+                  "alt": "Стоматологическая клиника Дентал Сити, Ростов‑на‑Дону, фото"
+                },
+                {
+                  "urlTemplate": "https://avatars.mds.yandex.net/get-altay/16413591/2a0000019bed9f05ddd9feeab9f3cba58c2d/%s",
+                  "alt": "Стоматологическая клиника Дентал Сити, Ростов‑на‑Дону, фото"
+                },
+                {
+                  "urlTemplate": "https://avatars.mds.yandex.net/get-altay/17692458/2a0000019df1d0eaf6adcb54967b6bf95ed5/%s",
+                  "alt": "Стоматологическая клиника Дентал Сити, Ростов‑на‑Дону, фото"
+                },
+                {
+                  "urlTemplate": "https://avatars.mds.yandex.net/get-altay/12448848/2a0000019bed78b5365189bafc38fe8217dc/%s",
+                  "alt": "Стоматологическая клиника Дентал Сити, Ростов‑на‑Дону, фото"
+                },
+                {
+                  "urlTemplate": "https://avatars.mds.yandex.net/get-altay/17753003/2a0000019bed78ad8278042e342c918dcfaa/%s",
+                  "alt": "Стоматологическая клиника Дентал Сити, Ростов‑на‑Дону, фото"
+                },
+                {
+                  "urlTemplate": "https://avatars.mds.yandex.net/get-altay/19693520/2a0000019bed78e996e3bb80437bf90c2293/%s",
+                  "alt": "Стоматологическая клиника Дентал Сити, Ростов‑на‑Дону, фото"
+                }
+              ]
+            },
+            "entrances": [
+              {
+                "coordinates": [
+                  39.777531061342245,
+                  47.22643182720936
+                ],
+                "azimuth": 344.4003210092311,
+                "tilt": 0
+              }
+            ],
+            "routePoint": {
+              "context": "djJ8ChQKEgloC0gjhuNDQBGhUda3-5xHQBIrChIJO8kUe4HjQ0AR6e0ycP6cR0ASDjE2NzM2NzA4ODM2OV8wHQAAgD8gLA,,"
+            },
+            "relatedAdverts": {
+              "nearbyOnMap": [
+                {
+                  "type": "similar",
+                  "id": "142882934489",
+                  "uri": "ymapsbm1://org?oid=142882934489",
+                  "logId": "142882934489",
+                  "title": "Дента",
+                  "rating": 5,
+                  "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/6264381/2a00000181aa4f3f40493f60402dd34a8126/%s",
+                  "categories": [],
+                  "seoname": "denta",
+                  "coordinates": [
+                    39.767095,
+                    47.229544
+                  ],
+                  "icon": "dental",
+                  "poiColor": "#ABAEB3",
+                  "poiLabelColor": "#7A7F85",
+                  "isAdvert": true
+                },
+                {
+                  "type": "similar",
+                  "id": "1091280210",
+                  "uri": "ymapsbm1://org?oid=1091280210",
+                  "logId": "1091280210",
+                  "title": "Авторская стоматология",
+                  "rating": 5,
+                  "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/1363250/2a00000164896919809340f6b2315c951a35/%s",
+                  "categories": [],
+                  "seoname": "avtorskaya_stomatologiya",
+                  "coordinates": [
+                    39.757639,
+                    47.22985
+                  ],
+                  "icon": "dental",
+                  "poiColor": "#ABAEB3",
+                  "poiLabelColor": "#7A7F85",
+                  "isAdvert": true
+                },
+                {
+                  "type": "similar",
+                  "id": "1032958879",
+                  "uri": "ymapsbm1://org?oid=1032958879",
+                  "logId": "1032958879",
+                  "title": "Ардента",
+                  "rating": 5,
+                  "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/15185043/2a00000195479cf45d94730ec2eeec9cde34/%s",
+                  "categories": [],
+                  "seoname": "stomatologiya_ardenta",
+                  "coordinates": [
+                    39.758441,
+                    47.23212
+                  ],
+                  "icon": "dental",
+                  "poiColor": "#ABAEB3",
+                  "poiLabelColor": "#7A7F85",
+                  "isAdvert": true
+                },
+                {
+                  "type": "similar",
+                  "id": "164194457137",
+                  "uri": "ymapsbm1://org?oid=164194457137",
+                  "logId": "164194457137",
+                  "title": "Эстетика",
+                  "rating": 5,
+                  "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/16403814/2a0000019a6d81f9b4fad0003bac13e389d9/%s",
+                  "categories": [],
+                  "seoname": "estetika",
+                  "coordinates": [
+                    39.799079,
+                    47.237923
+                  ],
+                  "icon": "dental",
+                  "poiColor": "#ABAEB3",
+                  "poiLabelColor": "#7A7F85",
+                  "isAdvert": true
+                },
+                {
+                  "type": "similar",
+                  "id": "1077532704",
+                  "uri": "ymapsbm1://org?oid=1077532704",
+                  "logId": "1077532704",
+                  "title": "Дента Дон",
+                  "rating": 5,
+                  "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/20393000/2a0000019f6ece9ab3bc5bd074e8b863b781/%s",
+                  "categories": [],
+                  "seoname": "denta_don",
+                  "coordinates": [
+                    39.75635,
+                    47.229555
+                  ],
+                  "icon": "dental",
+                  "poiColor": "#ABAEB3",
+                  "poiLabelColor": "#7A7F85",
+                  "isAdvert": true
+                }
+              ],
+              "nearbyOnCard": [
+                {
+                  "type": "similar",
+                  "id": "142882934489",
+                  "uri": "ymapsbm1://org?oid=142882934489",
+                  "logId": "142882934489",
+                  "title": "Дента",
+                  "rating": 5,
+                  "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/6264381/2a00000181aa4f3f40493f60402dd34a8126/%s",
+                  "categories": [],
+                  "seoname": "denta",
+                  "coordinates": [
+                    39.767095,
+                    47.229544
+                  ],
+                  "icon": "dental",
+                  "poiColor": "#ABAEB3",
+                  "poiLabelColor": "#7A7F85",
+                  "isAdvert": true
+                },
+                {
+                  "type": "similar",
+                  "id": "1091280210",
+                  "uri": "ymapsbm1://org?oid=1091280210",
+                  "logId": "1091280210",
+                  "title": "Авторская стоматология",
+                  "rating": 5,
+                  "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/1363250/2a00000164896919809340f6b2315c951a35/%s",
+                  "categories": [],
+                  "seoname": "avtorskaya_stomatologiya",
+                  "coordinates": [
+                    39.757639,
+                    47.22985
+                  ],
+                  "icon": "dental",
+                  "poiColor": "#ABAEB3",
+                  "poiLabelColor": "#7A7F85",
+                  "isAdvert": true
+                },
+                {
+                  "type": "similar",
+                  "id": "1032958879",
+                  "uri": "ymapsbm1://org?oid=1032958879",
+                  "logId": "1032958879",
+                  "title": "Ардента",
+                  "rating": 5,
+                  "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/15185043/2a00000195479cf45d94730ec2eeec9cde34/%s",
+                  "categories": [],
+                  "seoname": "stomatologiya_ardenta",
+                  "coordinates": [
+                    39.758441,
+                    47.23212
+                  ],
+                  "icon": "dental",
+                  "poiColor": "#ABAEB3",
+                  "poiLabelColor": "#7A7F85",
+                  "isAdvert": true
+                },
+                {
+                  "type": "similar",
+                  "id": "74676183069",
+                  "uri": "ymapsbm1://org?oid=74676183069",
+                  "logId": "74676183069",
+                  "title": "Зубы за один день",
+                  "rating": 5,
+                  "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/7370029/2a00000182d3d29040e344703bf1e743086e/%s",
+                  "categories": [],
+                  "seoname": "zuby_za_odin_den",
+                  "coordinates": [
+                    39.749645,
+                    47.230833
+                  ],
+                  "icon": "dental",
+                  "poiColor": "#ABAEB3",
+                  "poiLabelColor": "#7A7F85",
+                  "isAdvert": true
+                },
+                {
+                  "type": "similar",
+                  "id": "1396434352",
+                  "uri": "ymapsbm1://org?oid=1396434352",
+                  "logId": "1396434352",
+                  "title": "Харизма",
+                  "rating": 5,
+                  "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/15383884/2a000001990a9ffa41341a10ffd602ad90e8/%s",
+                  "categories": [],
+                  "seoname": "kharizma",
+                  "coordinates": [
+                    39.75382,
+                    47.23056
+                  ],
+                  "icon": "dental",
+                  "poiColor": "#ABAEB3",
+                  "poiLabelColor": "#7A7F85",
+                  "isAdvert": true
+                }
+              ]
+            },
+            "panorama": {
+              "id": "1311023763_755022808_23_1758198821",
+              "direction": [
+                119,
+                10
+              ],
+              "point": {
+                "type": "Point",
+                "coordinates": [
+                  39.7774849,
+                  47.22646511
+                ]
+              },
+              "preview": "https://static-pano.maps.yandex.ru/v1/?panoid=1311023763_755022808_23_1758198821&size=500%2C240&azimuth=119&tilt=10&api_key=maps&signature=gBnfBZmUe6t2Exmef2SHJfwjcWoL_KMMhFp1_IP6UYM=",
+              "alt": "Панорама — стоматологическая клиника Дентал Сити, Ростов‑на‑Дону"
+            },
+            "shortTitle": "Дентал Сити",
+            "fullAddress": "Ростов-на-Дону, Нахичевань, улица Богданова, 79",
+            "country": "Россия",
+            "status": "open",
+            "businessLinks": [],
+            "ratingData": {
+              "ratingCount": 111,
+              "ratingValue": 4.800000190734863,
+              "reviewCount": 59
+            },
+            "sources": [
+              {
+                "id": "yandex",
+                "name": "Яндекс",
+                "href": "https://ya.ru/"
+              }
+            ],
+            "categories": [
+              {
+                "id": "184106132",
+                "name": "Стоматологическая клиника",
+                "class": "dental",
+                "seoname": "dental_clinic",
+                "pluralName": "Стоматологии"
+              },
+              {
+                "id": "65565837500",
+                "name": "зуботехническая лаборатория",
+                "class": "dental",
+                "seoname": "dental_laboratory",
+                "pluralName": "Зуботехнические лаборатории"
+              },
+              {
+                "id": "184106130",
+                "name": "стоматологическая поликлиника",
+                "class": "dental",
+                "seoname": "dental_polyclinic",
+                "pluralName": "Стоматологии"
+              }
+            ],
+            "phones": [
+              {
+                "number": "+7 (900) 138-31-91",
+                "type": "phone",
+                "value": "+79001383191",
+                "info": "ДНЕВНОЕ ВРЕМЯ"
+              },
+              {
+                "number": "+7 (928) 177-77-94",
+                "type": "phone",
+                "value": "+79281777794",
+                "info": "НОЧНОЕ ВРЕМЯ"
+              }
+            ],
+            "features": [
+              {
+                "id": "dentist_services",
+                "value": [
+                  {
+                    "id": "digital_dentistry",
+                    "name": "цифровая стоматология CAD/CAM"
+                  },
+                  {
+                    "id": "repair_of_dentures",
+                    "name": "ремонт зубных протезов"
+                  },
+                  {
+                    "id": "dental_treatment_anesthesia",
+                    "name": "наркоз"
+                  },
+                  {
+                    "id": "restoration_of_teeth",
+                    "name": "реставрация зубов"
+                  },
+                  {
+                    "id": "orthopedics_service",
+                    "name": "ортопедия"
+                  },
+                  {
+                    "id": "treatment_of_tooth_cysts",
+                    "name": "лечение кисты зуба"
+                  },
+                  {
+                    "id": "treatment_of_periodontitis",
+                    "name": "лечение периодонтита"
+                  },
+                  {
+                    "id": "root_canal_treatment",
+                    "name": "лечение каналов"
+                  },
+                  {
+                    "id": "crowns",
+                    "name": "коронки"
+                  },
+                  {
+                    "id": "orthodontics",
+                    "name": "ортодонтия"
+                  },
+                  {
+                    "id": "dental_hygiene",
+                    "name": "гигиена полости рта"
+                  },
+                  {
+                    "id": "dental_prosthetics",
+                    "name": "протезирование"
+                  },
+                  {
+                    "id": "veneers",
+                    "name": "виниры и люминиры"
+                  },
+                  {
+                    "id": "implantology",
+                    "name": "имплантология"
+                  },
+                  {
+                    "id": "caries_treatment",
+                    "name": "лечение кариеса"
+                  },
+                  {
+                    "id": "filling",
+                    "name": "пломбирование"
+                  },
+                  {
+                    "id": "endodontics",
+                    "name": "эндодонтия"
+                  },
+                  {
+                    "id": "treatment_of_gum_disease",
+                    "name": "лечение дёсен"
+                  },
+                  {
+                    "id": "therapy",
+                    "name": "терапия"
+                  }
+                ],
+                "name": "услуги",
+                "type": "enum",
+                "important": true
+              },
+              {
+                "id": "parking_disabled",
+                "value": true,
+                "name": "парковка для людей с инвалидностью",
+                "type": "bool",
+                "important": true
+              },
+              {
+                "id": "street_entrance",
+                "value": true,
+                "type": "bool",
+                "important": false
+              },
+              {
+                "id": "preliminary_registration",
+                "value": true,
+                "name": "предварительная запись",
+                "type": "bool",
+                "important": false
+              },
+              {
+                "id": "show_briefly_about_the_place_block",
+                "value": true,
+                "type": "bool",
+                "important": false
+              },
+              {
+                "id": "wheelchair_access",
+                "value": [
+                  {
+                    "id": "unavailable",
+                    "name": "недоступно"
+                  }
+                ],
+                "name": "доступность входа на инвалидной коляске",
+                "type": "enum",
+                "important": false
+              },
+              {
+                "id": "payment_method",
+                "value": [
+                  {
+                    "id": "wire_transfer",
+                    "name": "банковским переводом"
+                  },
+                  {
+                    "id": "cash",
+                    "name": "наличными"
+                  },
+                  {
+                    "id": "payment_card",
+                    "name": "оплата картой"
+                  }
+                ],
+                "name": "способ оплаты",
+                "type": "enum",
+                "important": false
+              },
+              {
+                "id": "payment_by_credit_card",
+                "value": true,
+                "name": "Оплата картой",
+                "type": "bool",
+                "important": false
+              },
+              {
+                "id": "car_park",
+                "value": true,
+                "name": "парковка",
+                "type": "bool",
+                "important": false
+              },
+              {
+                "id": "promotions",
+                "value": [
+                  {
+                    "id": "special_offers",
+                    "name": "спецпредложения"
+                  },
+                  {
+                    "id": "discounts",
+                    "name": "скидки"
+                  },
+                  {
+                    "id": "promotions",
+                    "name": "акции"
+                  }
+                ],
+                "name": "акции",
+                "type": "enum",
+                "important": false
+              },
+              {
+                "id": "dental treatment in installments",
+                "value": true,
+                "name": "лечение зубов в рассрочку",
+                "type": "bool",
+                "important": false
+              },
+              {
+                "id": "bike_parking",
+                "value": true,
+                "name": "велопарковка",
+                "type": "bool",
+                "important": false
+              },
+              {
+                "id": "free examination",
+                "value": true,
+                "name": "бесплатная консультация",
+                "type": "bool",
+                "important": false
+              },
+              {
+                "id": "guarantee",
+                "value": true,
+                "name": "гарантия",
+                "type": "bool",
+                "important": false
+              },
+              {
+                "id": "wi_fi",
+                "value": true,
+                "name": "Wi-Fi",
+                "type": "bool",
+                "important": false
+              },
+              {
+                "id": "wheelchair_accessible_vocabulary",
+                "value": [
+                  {
+                    "id": "wheelchair_accessible_pa",
+                    "name": "частично доступно"
+                  }
+                ],
+                "name": "доступность помещения на инвалидной коляске",
+                "type": "enum",
+                "important": false
+              },
+              {
+                "id": "ramp",
+                "value": true,
+                "name": "пандус",
+                "type": "bool",
+                "important": false
+              }
+            ],
+            "mediaOrderTemplate": "p,v,p,v,v,p,v*,p*",
+            "featureGroups": [
+              {
+                "name": "Доступность",
+                "featureIds": [
+                  "elevator_wheelchair_accessible",
+                  "ramp",
+                  "wheelchair_access",
+                  "call_button",
+                  "toilet_for_disabled",
+                  "parking_disabled",
+                  "automatic_door",
+                  "wheelchair_accessible_vocabulary"
+                ]
+              }
+            ],
+            "businessProperties": {
+              "has_verified_owner": true,
+              "geoproduct_poi_color": "#ABAEB3",
+              "show_ymyl_disclaimer": true,
+              "geoproduct_poi_label_color": "#7A7F85"
+            },
+            "seoname": "dental_siti",
+            "geoId": 108168,
+            "compositeAddress": {
+              "country": "Россия",
+              "area": "городской округ Ростов-на-Дону",
+              "locality": "Ростов-на-Дону",
+              "street": "улица Богданова",
+              "house": "79"
+            },
+            "modularCard": {
+              "showClaimOrganization": true,
+              "showTaxiButton": true,
+              "showFeedbackButton": true,
+              "showReviews": true,
+              "showAddPhotoButton": true,
+              "showCompetitors": true,
+              "showDirectBanner": true,
+              "showAdditionalAds": true,
+              "showWorkHours": true,
+              "showContacts": true,
+              "showFriendsLiked": false,
+              "showVisualPricesTab": false,
+              "showHotelEnrichment": false,
+              "promoBadgeFeature": [],
+              "offerBadgeId": [],
+              "showCourierButton": false,
+              "hotelReviewsStubType": 0
+            },
+            "modularPin": {
+              "subtitleHints": [
+                {
+                  "text": "4.8",
+                  "type": "RATING",
+                  "properties": null
+                },
+                {
+                  "text": "Круглосуточно",
+                  "type": "WORKING_HOURS",
+                  "properties": {
+                    "workingHours": {
+                      "shortText": "24 ч",
+                      "isOpen": true
+                    }
+                  }
+                }
+              ],
+              "allowMultilineSubtitle": false
+            },
+            "modularSnippet": {
+              "showNeurosummary": false,
+              "showMentionedOnSite": false,
+              "showTitle": "SHORT_TITLE",
+              "showAddress": "SHORT_ADDRESS",
+              "showCategory": "SINGLE_CATEGORY",
+              "showRating": "FIVE_STAR_RATING",
+              "showPhoto": "LOGO",
+              "showWorkHours": true,
+              "showVerified": true,
+              "showDistanceFromTransit": false,
+              "showBookmark": true,
+              "showEta": true,
+              "showGeoproductOffer": true,
+              "subtitleHint": [],
+              "galleryButton": [
+                "PRICES"
+              ],
+              "shownGoodsNumber": 3,
+              "showDescription": false,
+              "showCollectionBadge": true,
+              "showFriendsLiked": false,
+              "showCourierButton": false,
+              "showYandexEatsOrderButton": false,
+              "infoBlock": [],
+              "serpActionButtons": [
+                6,
+                1,
+                3,
+                5,
+                0
+              ],
+              "awards": [],
+              "promoBadgeFeature": [],
+              "offerBadgeId": [],
+              "showHotelEnrichment": false
+            },
+            "tzOffset": 10800,
+            "workingTimeText": "ежедневно, круглосуточно",
+            "workingTime": [
+              [
+                {
+                  "from": {
+                    "hours": 0,
+                    "minutes": 0
+                  },
+                  "to": {
+                    "hours": 0,
+                    "minutes": 0
+                  }
+                }
+              ],
+              [
+                {
+                  "from": {
+                    "hours": 0,
+                    "minutes": 0
+                  },
+                  "to": {
+                    "hours": 0,
+                    "minutes": 0
+                  }
+                }
+              ],
+              [
+                {
+                  "from": {
+                    "hours": 0,
+                    "minutes": 0
+                  },
+                  "to": {
+                    "hours": 0,
+                    "minutes": 0
+                  }
+                }
+              ],
+              [
+                {
+                  "from": {
+                    "hours": 0,
+                    "minutes": 0
+                  },
+                  "to": {
+                    "hours": 0,
+                    "minutes": 0
+                  }
+                }
+              ],
+              [
+                {
+                  "from": {
+                    "hours": 0,
+                    "minutes": 0
+                  },
+                  "to": {
+                    "hours": 0,
+                    "minutes": 0
+                  }
+                }
+              ],
+              [
+                {
+                  "from": {
+                    "hours": 0,
+                    "minutes": 0
+                  },
+                  "to": {
+                    "hours": 0,
+                    "minutes": 0
+                  }
+                }
+              ],
+              [
+                {
+                  "from": {
+                    "hours": 0,
+                    "minutes": 0
+                  },
+                  "to": {
+                    "hours": 0,
+                    "minutes": 0
+                  }
+                }
+              ]
+            ],
+            "currentWorkingStatus": {
+              "isOpenNow": true,
+              "text": "Круглосуточно",
+              "shortText": "24 ч",
+              "tag": []
+            },
+            "socialLinks": [
+              {
+                "type": "whatsapp",
+                "href": "https://wa.me/+79001383191?text=%D0%9E%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B8%D0%B7+%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81+%D0%9A%D0%B0%D1%80%D1%82%0A%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!+%D0%9C%D0%B5%D0%BD%D1%8F+%D0%B7%D0%B0%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BE%D0%B2%D0%B0%D0%BB%D0%BE+%D0%B2%D0%B0%D1%88%D0%B5+%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5",
+                "readableHref": "++79001383191"
+              },
+              {
+                "type": "telegram",
+                "href": "https://t.me/+79281777798",
+                "readableHref": "@+79281777798"
+              },
+              {
+                "type": "max",
+                "href": "https://max.ru/+79001383191",
+                "readableHref": "max.ru/+79001383191"
+              }
+            ],
+            "urls": [
+              "https://dental-city.clients.site/",
+              "https://dikidi.ru/2024544"
+            ],
+            "businessImages": {
+              "logo": {
+                "urlTemplate": "https://avatars.mds.yandex.net/get-altay/20218502/2a0000019d86e75d7de37303133b5f92fad4/%s",
+                "tag": [
+                  "owner_photo"
+                ],
+                "id": "2a0000019d86e75d7de37303133b5f92fad4"
+              }
+            },
+            "references": [
+              {
+                "id": "3460148595",
+                "scope": "nyak"
+              }
+            ],
+            "subtitleItems": [
+              {
+                "type": "working_hours",
+                "text": "24 ч",
+                "property": [
+                  {
+                    "key": "is_open",
+                    "value": "1"
+                  },
+                  {
+                    "key": "short_text",
+                    "value": "24 ч"
+                  },
+                  {
+                    "key": "text",
+                    "value": "Круглосуточно"
+                  }
+                ]
+              },
+              {
+                "type": "rating",
+                "text": "9.6",
+                "property": [
+                  {
+                    "key": "value",
+                    "value": "9.6"
+                  },
+                  {
+                    "key": "value_5",
+                    "value": "4.8"
+                  }
+                ]
+              }
+            ],
+            "metrika": {
+              "counter": 67961107,
+              "goals": {
+                "call": "make-call",
+                "cta": "cta-button",
+                "route": "make-route",
+                "site": "site",
+                "whatsapp": "whatsapp",
+                "telegram": "telegram",
+                "viber": "viber",
+                "vkontakte": "vkontakte",
+                "youtube": "social-youtube",
+                "odnoklassniki": "social-odnoklassniki",
+                "stories": "stories-button",
+                "taxi": "call-taxi",
+                "booking": "booking",
+                "subscribe": "subscribe",
+                "send-to-phone": "send-to-phone",
+                "booking-open": "booking-open",
+                "share": "share",
+                "booking-confirmed": "booking-confirmed",
+                "booking-visited": "booking-visited",
+                "start-route": "start-route",
+                "visited-organization": "visited-organization"
+              }
+            },
+            "routeToChoose": [
+              {
+                "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+                "label": "2ГИС",
+                "route-types": {
+                  "auto": "car",
+                  "bus": "bus",
+                  "walking": "pedestrian"
+                },
+                "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+                "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+                "service": "2gis"
+              },
+              {
+                "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+                "label": "Яндекс Карты",
+                "route-types": {
+                  "auto": "auto",
+                  "bus": "mt",
+                  "walking": "pd"
+                },
+                "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+                "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+                "service": "yandex_maps"
+              }
+            ],
+            "topObjects": {
+              "hasPhotos": true,
+              "isYandexEda": false,
+              "rubric": "medicine",
+              "categories": [
+                {
+                  "categoryName": "popular",
+                  "categoryItems": [
+                    {
+                      "title": "Удаление зуба (1 степени/однокорневого)",
+                      "description": "Удаление зуба (1 степени / однокорневого) в «Дентал Сити» (ЖК «Красный Аксай»). Быстрое, бережное и абсолютно безболезненное извлечение подвижного или однокорневого зуба с применением современных анестетиков. Максимальный комфорт и безопасное зажи...",
+                      "photoLink": "https://avatars.mds.yandex.net/get-sprav-products/8331772/2a0000019e5fa9062c014a04951cf3ea3037/{size}",
+                      "price": "3500",
+                      "currency": "₽"
+                    },
+                    {
+                      "title": "Удаление ретинированного зуба",
+                      "description": "Удаление ретинированного дистопированного зуба в «Дентал Сити» (Нахичевань, ЖК «Красный Аксай») — деликатное извлечение непрорезавшегося зуба, который к тому же растет в неправильном направлении или под наклоном. Хирург проводит операцию по ювелир...",
+                      "photoLink": "https://avatars.mds.yandex.net/get-sprav-products/9685839/2a0000019e5fba4f7aa7c1f9263730ed05d7/{size}",
+                      "price": "6000",
+                      "currency": "₽"
+                    },
+                    {
+                      "title": "Консультация врача стоматолога, первичный осмотр, составление плана лечения, фотопротокол",
+                      "description": "Консультация стоматолога в «Дентал Сити» (ЖК «Красный Аксай»). Первичный осмотр, детальный фотопротокол и составление комплексного плана лечения. Профессиональная диагностика вашей улыбки на ул. Богданова, 79 в Нахичевани.",
+                      "photoLink": "https://avatars.mds.yandex.net/get-sprav-products/5399152/2a0000019e5f2f624bef4f8e0f6bbf70e276/{size}",
+                      "price": "500",
+                      "currency": "₽"
+                    },
+                    {
+                      "title": "Лечение среднего кариеса (инъекционное местное обезболивание, восстановление зуба нанокомпозитным пломбировочным материалом)",
+                      "description": "Лечение среднего кариеса в «Дентал Сити» (Нахичевань, ЖК «Красный Аксай»). Безболезненное местное обезболивание и эстетичное восстановление зуба надежным нанокомпозитным материалом. Вернем здоровье и красоту улыбки за один визит!",
+                      "photoLink": "https://avatars.mds.yandex.net/get-sprav-products/5514775/2a0000019e5eda6404c6c32a0efb7070ba4e/{size}",
+                      "price": "5000",
+                      "currency": "₽"
+                    },
+                    {
+                      "title": "Лечение пульпита 1 корневого канала (инъекционное местное обезболивание, медикаментозная, инструментальная обработка 1 корневого канала, пломбирование 1 корневого канала пастой с гуттаперчевой штифтами)",
+                      "description": "Лечение 1-канального пульпита в «Дентал Сити» (ЖК «Красный Аксай»). Безболезненное местное обезболивание, бережная обработка и надежное пломбирование канала пастой с гуттаперчевыми штифтами. Эффективное спасение зуба в Нахичевани.",
+                      "photoLink": "https://avatars.mds.yandex.net/get-sprav-products/5234963/2a0000019e5edd35dfff9024f76eabb7c8b2/{size}",
+                      "price": "5000",
+                      "currency": "₽"
+                    },
+                    {
+                      "title": "Эстетическая реставрация зуба передней жевательной группы с использованием светоотверждаемого композита до 1/3",
+                      "description": "Эстетическая реставрация зуба до 1/3 в «Дентал Сити» (Нахичевань, ЖК «Красный Аксай»). Бережное восстановление формы и цвета передних и жевательных зубов светоотверждаемым композитом. Безупречный результат и незаметная пломба!",
+                      "photoLink": "https://avatars.mds.yandex.net/get-sprav-products/20340178/2a0000019e5ee31d1951b59953f477ae45dc/{size}",
+                      "price": "5000",
+                      "currency": "₽"
+                    },
+                    {
+                      "title": "Востановление зуба пломбой (поверхностный дефект или восстановление для эндодонтии)",
+                      "description": "Восстановление зуба пломбой (при поверхностном дефекте или для эндодонтии) в «Дентал Сити» (Нахичевань, ЖК «Красный Аксай»). Оперативное устранение небольших дефектов эмали либо создание надежной герметичной стенки зуба перед лечением каналов. Про...",
+                      "photoLink": "https://avatars.mds.yandex.net/get-sprav-products/1540730/2a0000019e5f0e92db3ac601d252d2c363df/{size}",
+                      "price": "3500",
+                      "currency": "₽"
+                    },
+                    {
+                      "title": "Анестезия проводниковая",
+                      "description": "Проводниковая анестезия в «Дентал Сити» (Ростов-на-Дону, ЖК «Красный Аксай»). Эффективное и безопасное обезболивание больших участков челюсти перед лечением и хирургией. Полное отсутствие боли и комфорт на приеме у стоматолога.",
+                      "photoLink": "https://avatars.mds.yandex.net/get-sprav-products/3911103/2a0000019e568203cc20f9a11823d3b362d0/{size}",
+                      "price": "500",
+                      "currency": "₽"
+                    },
+                    {
+                      "title": "Срочная стоматология",
+                      "description": "Срочная стоматология «Дентал Сити» в Нахичевани (ул. Богданова, 79). Поможем снять острую зубную боль быстро и без стресса! Мы работаем круглосуточно, оказывая неотложную помощь и срочное лечение зубов в ночное время. Расчет стоимости +10% от прайса!",
+                      "photoLink": "https://avatars.mds.yandex.net/get-sprav-products/1424222/2a0000019e9243d5dae29add44ce7937bbf5/{size}",
+                      "price": "1000",
+                      "currency": "₽"
+                    },
+                    {
+                      "title": "Профессиональная гигиена полости рта и зубов",
+                      "description": "Профессиональная гигиена полости рта и зубов в «Дентал Сити» (Нахичевань, ЖК «Красный Аксай»). Комплексное удаление твердого ультразвуком, бережное снятие мягкого пигментированного налета системой Air Flow и финишное полирование эмали. Идеальная ч...",
+                      "photoLink": "https://avatars.mds.yandex.net/get-sprav-products/5236693/2a0000019e5fa0465e2009d9f63984bd3641/{size}",
+                      "price": "4500",
+                      "currency": "₽"
+                    }
+                  ]
+                }
+              ],
+              "fullObjectsCount": 93,
+              "relevance": {
+                "lastUploadTime": "2026-07-20T15:21:44.558228Z",
+                "lastUpdateTime": "2026-06-17T12:43:10.182316Z"
+              },
+              "source": {
+                "id": "TYCOON",
+                "name": "Представитель организации",
+                "disclaimerText": "Есть противопоказания. Посоветуйтесь с врачом."
+              }
+            },
+            "parentRubrics": [
+              184105926,
+              184106124
+            ],
+            "eventsPreviews": {
+              "count": 13,
+              "uri": "tycoon_events/1.x",
+              "items": [
+                {
+                  "id": 68743765,
+                  "contentShort": "Здоровая улыбка без переплат: круглосуточная стоматология «Дентал Сити» в Нахичевани представила честный прайс-лист!!!!\n\n\n\nПроблемы с зубами...",
+                  "text": "Здоровая улыбка без переплат: круглосуточная стоматология «Дентал Сити» в Нахичевани представила честный прайс-лист!!!!\n\n\n\nПроблемы с зубами...",
+                  "publicationTime": 1783430833802,
+                  "photos": [
+                    {
+                      "id": "57ff7c04-714a-462c-b5dd-503149ec93f6",
+                      "size": {
+                        "width": 2528,
+                        "height": 1205
+                      },
+                      "urlTemplate": "https://avatars.mds.yandex.net/get-sprav-posts/18765929/2a0000019f3cbc9fe9d1409d60ae0642c240/%s",
+                      "possibleSizes": [
+                        "S",
+                        "M",
+                        "L",
+                        "XL"
+                      ]
+                    }
+                  ],
+                  "uri": "tycoon_events/1.x/post/68743765",
+                  "urls": [],
+                  "itemType": "post"
+                },
+                {
+                  "id": 68233795,
+                  "contentShort": "Удаление восьмерок в Ростове-на-Дону: безболезненно, профессионально и круглосуточно\n\nВ Дентал Сити на ул. Богданова, 79 (Нахичевань) успешн...",
+                  "text": "Удаление восьмерок в Ростове-на-Дону: безболезненно, профессионально и круглосуточно\n\nВ Дентал Сити на ул. Богданова, 79 (Нахичевань) успешн...",
+                  "publicationTime": 1782406250536,
+                  "photos": [
+                    {
+                      "id": "c5581f01-2a09-476c-9998-d7c37573b80e",
+                      "size": {
+                        "width": 1200,
+                        "height": 640
+                      },
+                      "urlTemplate": "https://avatars.mds.yandex.net/get-sprav-posts/18765929/2a0000019effb0c8b2d862361eeac645ab71/%s",
+                      "possibleSizes": [
+                        "S",
+                        "M",
+                        "L",
+                        "XL"
+                      ]
+                    }
+                  ],
+                  "uri": "tycoon_events/1.x/post/68233795",
+                  "urls": [],
+                  "itemType": "post"
+                }
+              ]
+            },
+            "hasStories": true,
+            "lastMileStory": {
+              "id": "6907027",
+              "createdAt": 1773314469211,
+              "title": "Как пройти",
+              "coverUrlTemplate": "https://avatars.mds.yandex.net/get-maps_stories/20306769/2a0000019dd04f3c0586071e4b7e3edddc97/%s",
+              "screens": [
+                {
+                  "id": "0",
+                  "type": "photo",
+                  "content": [
+                    {
+                      "width": 1080,
+                      "height": 1920,
+                      "urlTemplate": "https://avatars.mds.yandex.net/get-maps_stories/20306769/2a0000019dd04f3c0586071e4b7e3edddc97/%s"
+                    }
+                  ],
+                  "buttonsV2": [
+                    {
+                      "type": "openURL",
+                      "title": "МАРШРУТ",
+                      "url": "https://yandex.com/maps/39/rostov-na-donu/?ll=39.777905%2C47.224350&mode=routes&rtext=~47.226430%2C39.777578&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D167367088369&z=16.77",
+                      "target": "_blank"
+                    }
+                  ]
+                },
+                {
+                  "id": "1",
+                  "type": "photo",
+                  "content": [
+                    {
+                      "width": 1080,
+                      "height": 1920,
+                      "urlTemplate": "https://avatars.mds.yandex.net/get-maps_stories/17725994/2a0000019ce1c5e48ce6c4c73aeccdec5c84/%s"
+                    }
+                  ],
+                  "buttonsV2": [
+                    {
+                      "type": "openURL",
+                      "title": "МАРШРУТ",
+                      "url": "https://yandex.com/maps/39/rostov-na-donu/?ll=39.777905%2C47.224350&mode=routes&rtext=~47.226430%2C39.777578&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D167367088369&z=16.77",
+                      "target": "_blank"
+                    }
+                  ]
+                },
+                {
+                  "id": "2",
+                  "type": "photo",
+                  "content": [
+                    {
+                      "width": 1080,
+                      "height": 1920,
+                      "urlTemplate": "https://avatars.mds.yandex.net/get-maps_stories/17725994/2a0000019ce1c60c3cdc625a745b6cb89c3f/%s"
+                    }
+                  ],
+                  "buttonsV2": [
+                    {
+                      "type": "openURL",
+                      "title": "МАРШРУТ",
+                      "url": "https://yandex.com/maps/39/rostov-na-donu/?ll=39.777905%2C47.224350&mode=routes&rtext=~47.226430%2C39.777578&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D167367088369&z=16.77",
+                      "target": "_blank"
+                    }
+                  ]
+                }
+              ],
+              "permalinks": [
+                "167367088369"
+              ],
+              "moderation": {
+                "status": 1,
+                "reasons": []
+              },
+              "tags": [
+                "lastMile"
+              ]
+            },
+            "aspects": [
+              {
+                "id": "3502044682",
+                "isTrusted": true,
+                "text": "Качество лечения",
+                "count": 32,
+                "positive": 31,
+                "neutral": 0,
+                "negative": 1,
+                "photos": []
+              },
+              {
+                "id": "3502044686",
+                "isTrusted": true,
+                "text": "Время ожидания",
+                "count": 12,
+                "positive": 11,
+                "neutral": 1,
+                "negative": 0,
+                "photos": []
+              }
+            ],
+            "videos": {
+              "items": [
+                {
+                  "id": "vplvslnyppku7laio4zl",
+                  "videoUrl": "https://runtime.strm.yandex.ru/player/video/vplvslnyppku7laio4zl",
+                  "thumbnailUrl": "https://avatars.mds.yandex.net/get-vh/20310174/2a0000019df23e132c8031ef4a6bbf67d970/orig",
+                  "tags": [
+                    {
+                      "id": "hardcoded-video",
+                      "name": "Видео"
+                    }
+                  ],
+                  "height": 1022,
+                  "width": 1536
+                },
+                {
+                  "id": "vplvc6vakex7krp2hmyx",
+                  "videoUrl": "https://runtime.strm.yandex.ru/player/video/vplvc6vakex7krp2hmyx",
+                  "thumbnailUrl": "https://avatars.mds.yandex.net/get-vh/16220253/2a0000019d023d4247f328adc9e753371b8f/orig",
+                  "tags": [
+                    {
+                      "id": "hardcoded-video",
+                      "name": "Видео"
+                    }
+                  ],
+                  "height": 3840,
+                  "width": 2160
+                },
+                {
+                  "id": "vplvekh7bbghbxdcqgjm",
+                  "videoUrl": "https://runtime.strm.yandex.ru/player/video/vplvekh7bbghbxdcqgjm",
+                  "thumbnailUrl": "https://avatars.mds.yandex.net/get-vh/18193029/2a0000019df23a55b2110a75c1a89522fbea/orig",
+                  "tags": [
+                    {
+                      "id": "hardcoded-video",
+                      "name": "Видео"
+                    }
+                  ],
+                  "height": 1022,
+                  "width": 1536
+                }
+              ]
+            },
+            "needSimilarOrgsRequest": true,
+            "region": {
+              "id": 39,
+              "type": 6,
+              "capitalId": 0,
+              "hierarchy": [
+                225,
+                11029,
+                39
+              ],
+              "seoname": "rostov-na-donu",
+              "bounds": [
+                [
+                  39.555104,
+                  47.127347962045626
+                ],
+                [
+                  39.882521999999994,
+                  47.31670096204562
+                ]
+              ],
+              "longitude": 39.718813,
+              "latitude": 47.222109,
+              "zoom": 12,
+              "names": {
+                "ablative": "",
+                "accusative": "Ростов‑на‑Дону",
+                "dative": "Ростову‑на‑Дону",
+                "directional": "",
+                "genitive": "Ростова‑на‑Дону",
+                "instrumental": "Ростовом‑на‑Дону",
+                "locative": "",
+                "nominative": "Ростов‑на‑Дону",
+                "preposition": "в",
+                "prepositional": "Ростове‑на‑Дону"
+              }
+            },
+            "breadcrumbs": [
+              {
+                "name": "Карты",
+                "type": "root",
+                "url": "https://yandex.ru/maps/"
+              },
+              {
+                "name": "Ростов‑на‑Дону",
+                "type": "region",
+                "url": "https://yandex.ru/maps/39/rostov-na-donu/",
+                "region": {
+                  "center": [
+                    39.718813,
+                    47.222109
+                  ],
+                  "zoom": 12
+                }
+              },
+              {
+                "category": {
+                  "id": "184106132",
+                  "name": "Стоматологическая клиника",
+                  "class": "dental",
+                  "seoname": "dental_clinic",
+                  "pluralName": "Стоматологии"
+                },
+                "name": "Стоматологии",
+                "type": "category",
+                "url": "https://yandex.ru/maps/39/rostov-na-donu/category/dental_clinic/184106132/"
+              }
+            ],
+            "a11y": {
+              "hasReviews": false,
+              "photos": []
+            },
+            "relatedPlaces": [
+              {
+                "type": "similar",
+                "id": "1117670404",
+                "uri": "ymapsbm1://org?oid=1117670404",
+                "logId": "1117670404",
+                "title": "Новодент",
+                "rating": 5,
+                "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/4804646/2a0000017759e06b9d0b33ffb4a7f267f64c/%s",
+                "category": "Стоматологическая клиника",
+                "categories": [],
+                "seoname": "novodent",
+                "coordinates": [
+                  39.767945,
+                  47.229368
+                ],
+                "icon": "dental",
+                "poiColor": "#ABAEB3",
+                "poiLabelColor": "#7A7F85",
+                "isAdvert": false
+              },
+              {
+                "type": "similar",
+                "id": "1055283416",
+                "uri": "ymapsbm1://org?oid=1055283416",
+                "logId": "1055283416",
+                "title": "Стоматология",
+                "rating": 4,
+                "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/1433431/2a00000166eb68b1bc7a2cad5d5d0ca7aa67/%s",
+                "category": "Стоматологическая клиника",
+                "categories": [],
+                "seoname": "stomatologicheskiy_kabinet",
+                "coordinates": [
+                  39.77193,
+                  47.228816
+                ],
+                "icon": "dental",
+                "poiColor": "#ABAEB3",
+                "poiLabelColor": "#7A7F85",
+                "isAdvert": false
+              },
+              {
+                "type": "similar",
+                "id": "1218415137",
+                "uri": "ymapsbm1://org?oid=1218415137",
+                "logId": "1218415137",
+                "title": "Стоматология без боли",
+                "rating": 4.7,
+                "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/6141684/2a00000182dba73ebb06466a524bac4c8ed7/%s",
+                "category": "Стоматологическая клиника",
+                "categories": [],
+                "seoname": "stomatologiya_bez_boli",
+                "coordinates": [
+                  39.778501,
+                  47.231662
+                ],
+                "icon": "dental",
+                "poiColor": "#ABAEB3",
+                "poiLabelColor": "#7A7F85",
+                "isAdvert": false
+              },
+              {
+                "type": "similar",
+                "id": "1943757567",
+                "uri": "ymapsbm1://org?oid=1943757567",
+                "logId": "1943757567",
+                "title": "Авбо",
+                "rating": 3.7,
+                "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/3633604/2a000001751cf9be29a4e2d6ac23db7d40d7/%s",
+                "category": "Стоматологическая клиника",
+                "categories": [],
+                "seoname": "avbo",
+                "coordinates": [
+                  39.769478,
+                  47.233417
+                ],
+                "icon": "dental",
+                "poiColor": "#ABAEB3",
+                "poiLabelColor": "#7A7F85",
+                "isAdvert": false
+              },
+              {
+                "type": "similar",
+                "id": "212623157462",
+                "uri": "ymapsbm1://org?oid=212623157462",
+                "logId": "212623157462",
+                "title": "Зубная фея",
+                "rating": 4.4,
+                "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/1352335/2a00000163018fa83970d1268ab186cd6f90/%s",
+                "category": "Стоматологическая клиника",
+                "categories": [],
+                "seoname": "zubnaya_feya",
+                "coordinates": [
+                  39.760238,
+                  47.238678
+                ],
+                "icon": "dental",
+                "poiColor": "#ABAEB3",
+                "poiLabelColor": "#7A7F85",
+                "isAdvert": false
+              },
+              {
+                "type": "similar",
+                "id": "1685281386",
+                "uri": "ymapsbm1://org?oid=1685281386",
+                "logId": "1685281386",
+                "title": "Улыбка",
+                "rating": 4.8,
+                "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/10768168/2a00000190d42b188bbc63ba255c5a35ca05/%s",
+                "category": "Стоматологическая клиника",
+                "categories": [],
+                "seoname": "ulybka",
+                "coordinates": [
+                  39.769594,
+                  47.240061
+                ],
+                "icon": "dental",
+                "poiColor": "#ABAEB3",
+                "poiLabelColor": "#7A7F85",
+                "isAdvert": false
+              },
+              {
+                "type": "similar",
+                "id": "142882934489",
+                "uri": "ymapsbm1://org?oid=142882934489",
+                "logId": "142882934489",
+                "title": "Дента",
+                "rating": 5,
+                "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/6264381/2a00000181aa4f3f40493f60402dd34a8126/%s",
+                "category": "Стоматологическая клиника",
+                "categories": [],
+                "seoname": "denta",
+                "coordinates": [
+                  39.767095,
+                  47.229544
+                ],
+                "icon": "dental",
+                "poiColor": "#ABAEB3",
+                "poiLabelColor": "#7A7F85",
+                "isAdvert": true
+              },
+              {
+                "type": "similar",
+                "id": "1080026790",
+                "uri": "ymapsbm1://org?oid=1080026790",
+                "logId": "1080026790",
+                "title": "Дента Дар",
+                "rating": 4.6,
+                "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/4303674/2a00000177a815f6eed8dbe8ee8628bcfdc1/%s",
+                "category": "Стоматологическая клиника",
+                "categories": [],
+                "seoname": "denta_dar",
+                "coordinates": [
+                  39.766285,
+                  47.246972
+                ],
+                "icon": "dental",
+                "poiColor": "#ABAEB3",
+                "poiLabelColor": "#7A7F85",
+                "isAdvert": false
+              },
+              {
+                "type": "similar",
+                "id": "1292200112",
+                "uri": "ymapsbm1://org?oid=1292200112",
+                "logId": "1292200112",
+                "title": "Стоматология",
+                "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/3954938/2a000001767e6487742f851ecfacc75a361c/%s",
+                "category": "Стоматологическая клиника",
+                "categories": [],
+                "seoname": "stomatologiya",
+                "coordinates": [
+                  39.764946,
+                  47.237383
+                ],
+                "icon": "dental",
+                "poiColor": "#ABAEB3",
+                "poiLabelColor": "#7A7F85",
+                "isAdvert": false
+              },
+              {
+                "type": "similar",
+                "id": "182341133403",
+                "uri": "ymapsbm1://org?oid=182341133403",
+                "logId": "182341133403",
+                "title": "ArtStom",
+                "rating": 4.6,
+                "photoUrlTemplate": "https://avatars.mds.yandex.net/get-altay/14702189/2a000001965878de310d7c57971627e58db2/%s",
+                "category": "Стоматологическая клиника",
+                "categories": [],
+                "seoname": "artstom",
+                "coordinates": [
+                  39.760803,
+                  47.236406
+                ],
+                "icon": "dental",
+                "poiColor": "#ABAEB3",
+                "poiLabelColor": "#7A7F85",
+                "isAdvert": false
+              }
+            ],
+            "reviewResults": {
+              "reviews": [
+                {
+                  "businessComment": {
+                    "text": "Спасибо за такой подробный и искренний отзыв о стоматологии Дентал Сити!\n\nМы отлично понимаем, насколько сильным может быть страх перед стоматологами, и именно поэтому в нашей клинике в Ростове-на-Дону уделяем особое внимание комфорту пациента, бережному подходу и подробному объяснению каждого этапа лечения.\n\nРады, что лечение прошло для вас аккуратно и безболезненно, а установка пломбы помогла не только восстановить зуб, но и изменить отношение к стоматологии в целом.\n\nБудем рады видеть вас снова в нашей стоматологии на улице Богданова — теперь уже только на профилактических осмотрах 🙂",
+                    "updatedTime": "2026-04-24T04:42:08.524Z"
+                  },
+                  "reviewId": "jYsUeyhnDk2gg8odXU5YjYYEsI8KWU",
+                  "businessId": "167367088369",
+                  "author": {
+                    "name": "галина Гончарова",
+                    "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/61207/eLUUH9AEOEw3W4GMkmASRy84iO0-1/{size}",
+                    "professionLevel": "Знаток города 6 уровня",
+                    "rtb": "Знаток города 6 уровня",
+                    "rtbType": "PROFESSION",
+                    "publicId": "5d3m5w5tjn4f61cnp2z6917nt8",
+                    "achievements": [],
+                    "professions": [],
+                    "isSubscribed": false
+                  },
+                  "text": "У меня выпала пломба и пришлось идти к стоматологу, к слову сказать, стоматологов я очень боюсь и пересекаю двери данных поликлиник только в случае, когда уже все уговоры просьбы и мольбы «ну пусть пожалуйста само пройдет» не работают. Когда я попала в эту стоматологию, то сразу ощутила профессиональный подход и заботу о пациентах  врач внимательно выслушал меня и все мои причитания по поводу «ну может просто попьем травки и все», рассказал все этапы лечения и провел его же очень аккуратно и безболезненного. Подводя итог хочу сказать что зуб мой вылечен, пломба поставлена и страх к стоматологам проработан и исчерпан, всем рекомендую и однозначно теперь лечить зубы только сюда.",
+                  "textLanguage": "ru",
+                  "textTranslations": {
+                    "tr": "Mührüm düştü ve dişçiye gitmek zorunda kaldım, bu arada diş hekimlerinden çok korkuyorum ve bu kliniklerin kapılarından geçiyorum, ancak «peki, lütfen kendi başınıza geçsin» isteği ve yalvarışlarının tüm ikna edilmesi işe yaramadığında. Bu diş hekimliğine girdiğimde, hastalara profesyonel bir yaklaşım ve özen gösterdiğimi hemen hissettim, doktor beni ve «belki sadece ot içelim ve hepsi bu» konusundaki tüm ağıtlarımı dikkatlice dinledi, tedavinin tüm aşamalarını anlattı ve çok dikkatli ve ağrısız bir şekilde geçirdi. Özetlemek gerekirse, dişimin tedavi edildiğini, dolgunun konulduğunu ve diş hekimlerine karşı korkunun çalışıldığını ve tükendiğini söylemek istiyorum, herkese tavsiye ediyorum ve kesinlikle şimdi dişlerimi sadece burada tedavi ediyorum."
+                  },
+                  "rating": 5,
+                  "updatedTime": "2026-04-20T16:21:58.986Z",
+                  "reactions": {
+                    "likes": 4,
+                    "dislikes": 0,
+                    "userReaction": "NONE"
+                  },
+                  "photos": [],
+                  "videos": [],
+                  "pinned": false
+                },
+                {
+                  "businessComment": {
+                    "text": "Спасибо большое за такой подробный и искренний отзыв! ❤️\nМы очень рады, что именно в такой сложный момент (ночь на Пасху, адская боль) смогли Вам помочь. Удаление сложного зуба мудрости — это всегда ювелирная работа, особенно в нестандартное время.\nБольшое спасибо, что преодолели страх и доверились нашему доктору. Молодой возраст врача не всегда плюс для пациента, но мы тщательно отбираем специалистов, и отзывы таких, как Ваш, это лучшее подтверждение их уровня.\nРады, что уже в 4 утра Вы уехали без боли и с зашитой лункой. Желаем лёгкого заживления и чтобы больше никогда не приходилось искать круглосуточную стоматологию в экстренном порядке 😊\nСтоматология «Дентал Сити» (ЖК Красный Аксай) — всегда готовы помочь, 24/7.\nБудем благодарны, если в будущем снова выберете нас для планового лечения или профилактики.\nС уважением,\nСтоматология «Дентал Сити» ",
+                    "updatedTime": "2026-05-04T07:03:37.612Z"
+                  },
+                  "reviewId": "4LggbuEl4-ZwXU5wvq6H7oDEtgy9Lma",
+                  "businessId": "167367088369",
+                  "author": {
+                    "name": "Инночка ❤️❤️❤️",
+                    "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/57243/UIVNfT9FaW8SbzapxYyN8Bn6zR8-1/{size}",
+                    "professionLevel": "Знаток города 10 уровня",
+                    "rtb": "Знаток города 10 уровня",
+                    "rtbType": "PROFESSION",
+                    "publicId": "rktgb1tqtt91cxq1h6rtvem018",
+                    "achievements": [],
+                    "professions": [],
+                    "isSubscribed": false
+                  },
+                  "text": "Ну вот моя история кратко)\n2 недели болел зуб мудрости и я справлялась благодаря кеторолу)\nНо как назло на Пасху что-то пошло не так…адская боль которая не проходила ни на минуту.\nДело было за малым-найти круглосуточную клинику и ехать удалять)\nВыбор пал на данную стоматологию. Позвонила в 23.30 и мне сказали в 01.00 доктор меня примет.\n\nПриехал доктор, заполнили документы, все рассказал.\nБыло ли страшно?  Писец как! Врач молодой, было страшно, но думаю хоть анастезию сделает уже жить можно будет)\n\nЗуб у меня был очень сложный, но!!! Спустя полтора часа дело было сделано) зуб удалён и лунка зашита)\n\nВ 04:00 утра ехала уставшая но меня уже ничего не беспокоило ❤️\nСпасибо доктору и клинике❤️\n",
+                  "textLanguage": "ru",
+                  "textTranslations": {
+                    "tr": "İşte benim hikayem kısaca)\n2 haftadır yirmilik diş ağrıyordu ve ketorol sayesinde başa çıktım)\nAma şans eseri Paskalya'da bir şeyler ters gitti ... bir an bile geçmeyen cehennem gibi bir acı.\nMesele küçüktü- 24 saat açık bir klinik bulmak ve silmek için yola çıkmak)\nSeçim bu diş hekimliğine düştü. Saat 23.30'da aradım ve saat 01.00'de doktorun beni kabul edeceği söylendi.\n\nDoktor geldi, evrakları doldurdular, her şeyi anlattılar.\nKorkutucu muydu?  Nasıl katip! Doktor gençti, korkunçtu, ama sanırım en azından anastasia'yı yapacak olsa bile yaşamak mümkün olacak)\n\nDişim çok karmaşıktı ama!!! Bir buçuk saat sonra iş bitti) diş çıkarıldı ve delik dikildi)\n\nSabah 04:00'da yorgun bir şekilde gidiyordum ama artık beni rahatsız etmedi ❤️\nDoktora ve kliniğe teşekkürler❤️\n"
+                  },
+                  "rating": 5,
+                  "updatedTime": "2026-05-02T20:07:16.059Z",
+                  "reactions": {
+                    "likes": 5,
+                    "dislikes": 0,
+                    "userReaction": "NONE"
+                  },
+                  "photos": [],
+                  "videos": [],
+                  "pinned": false
+                },
+                {
+                  "businessComment": {
+                    "text": "Огромное спасибо за такой подробный отзыв и доверие! Нам очень приятно, что результат установки 5 коронок оправдал ваши ожидания. Мы обязательно передадим ваши слова благодарности Магомеду и Руслану — они действительно мастера своего дела, которые уделяют внимание каждой детали при изготовлении коронок. Стоматология «Дентал Сити» на Богданова, 79 всегда стремится к тому, чтобы лечение в Нахичевани было комфортным и качественным. Ждем вас на профилактические осмотры!",
+                    "updatedTime": "2026-05-11T18:31:18.345Z"
+                  },
+                  "reviewId": "lakV-mIEr2irwgkvRweyI0AE1XaWrVSjP",
+                  "businessId": "167367088369",
+                  "author": {
+                    "name": "Оливия Роскошная",
+                    "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/31078/jUqeibALUOseww2Q650D9q7fc-1/{size}",
+                    "professionLevel": "Знаток города 5 уровня",
+                    "rtb": "Знаток города 5 уровня",
+                    "rtbType": "PROFESSION",
+                    "publicId": "y2bjzpaxftqr14vc7d9fyzc7r8",
+                    "achievements": [],
+                    "professions": [],
+                    "isSubscribed": false
+                  },
+                  "text": "Сделала в этой стоматологии себе 5 коронок . Сначала одну на пробу , результат понравился и сразу  пошла делать еще четыре . За крайне короткий срок мне сделали все коронки  на высшем уровне . Личную благодарность выражаю Магомеду - кто устанавливал и Руслану , кто изготавливал коронки . Отношение к клиентам у этих специалистов очень уважительное , услышали все мои пожелания , было комфортно и не страшно доверить свои зубы им . Спасибо  большое, успехов вам и процветания 🫶🏻",
+                  "textLanguage": "ru",
+                  "textTranslations": {
+                    "tr": "Bu diş hekimliğinde kendime 5 kron yaptım. Önce deneme için bir tane, sonucu beğendim ve hemen dört tane daha yapmaya gittim. Son derece kısa sürede tüm kronları en üst düzeyde yaptırdım. Kronları yapan Ruslan'ı da kuran Magomed'e kişisel minnettarlığımı ifade ediyorum. Bu uzmanların müşterilere karşı tutumu çok saygılı, tüm dileklerimi duydular, dişlerimi onlara emanet etmek rahattı ve korkutucu değildi. Çok teşekkür ederim, size başarılar ve refah"
+                  },
+                  "rating": 5,
+                  "updatedTime": "2026-05-11T09:10:20.865Z",
+                  "reactions": {
+                    "likes": 6,
+                    "dislikes": 0,
+                    "userReaction": "NONE"
+                  },
+                  "photos": [],
+                  "videos": [],
+                  "pinned": false
+                }
+              ],
+              "params": {
+                "offset": 0,
+                "limit": 3,
+                "count": 59,
+                "loadedReviewsCount": 3,
+                "page": 1,
+                "totalPages": 20,
+                "reviewsRemained": 56
+              },
+              "tags": [],
+              "aspects": [
+                {
+                  "text": "Персонал",
+                  "count": 44,
+                  "positive": 39,
+                  "negative": 1
+                },
+                {
+                  "text": "Специалисты",
+                  "count": 44,
+                  "positive": 42,
+                  "negative": 1
+                },
+                {
+                  "text": "Отношение к клиентам",
+                  "count": 36,
+                  "positive": 34,
+                  "negative": 2
+                },
+                {
+                  "text": "Качество лечения",
+                  "count": 32,
+                  "positive": 31,
+                  "negative": 1
+                }
+              ]
+            },
+            "reviewPollData": {
+              "aspects": [
+                "Персонал",
+                "Специалисты",
+                "Отношение к клиентам",
+                "Качество лечения",
+                "Время ожидания",
+                "Удаление зубов",
+                "Реставрация зубов",
+                "Анестезия",
+                "Пломбирование зубов",
+                "Детская стоматология",
+                "Лечение кариеса",
+                "Чистота"
+              ]
+            },
+            "geoWhere": {
+              "id": "2008497183",
+              "seoname": "ulitsa_bogdanova_79",
+              "kind": "house",
+              "coordinates": [
+                39.777338,
+                47.226264
+              ],
+              "displayCoordinates": [
+                39.777338,
+                47.226264
+              ],
+              "encodedCoordinates": "Z0AYcQBnSkYPQFptfX5zd35lYA=="
+            }
+          }
+        ],
+        "pageCount": 1,
+        "resultsCount": 1,
+        "bounds": [
+          [
+            39.7540925,
+            47.2105026
+          ],
+          [
+            39.8010635,
+            47.2423526
+          ]
+        ],
+        "categories": [],
+        "filters": [
+          {
+            "id": "worktime",
+            "isTop": true,
+            "name": "открыто",
+            "type": "worktime",
+            "values": {
+              "openNow": {
+                "id": "open_now",
+                "name": "открыто",
+                "type": "boolean",
+                "selected": false,
+                "isTop": true
+              },
+              "open24h": {
+                "id": "open_24h",
+                "name": "круглосуточно",
+                "type": "boolean",
+                "selected": false,
+                "isTop": true
+              },
+              "openInNextTwoHours": {
+                "id": "open_in_next_two_hours",
+                "name": "",
+                "selected": false,
+                "type": "boolean"
+              },
+              "openAt": {
+                "id": "open_at",
+                "name": "Открыто в указанное время",
+                "type": "datetime",
+                "from": null,
+                "to": null,
+                "minValue": "2026-07-21T00:00:00.000Z",
+                "maxValue": "2026-07-28T00:00:00.000Z"
+              }
+            }
+          },
+          {
+            "id": "payment_by_credit_card",
+            "name": "Оплата картой",
+            "type": "boolean",
+            "selected": false
+          },
+          {
+            "id": "car_park",
+            "name": "парковка",
+            "type": "boolean",
+            "selected": false
+          },
+          {
+            "id": "has_photo",
+            "name": "с фото",
+            "type": "boolean",
+            "selected": false
+          }
+        ],
+        "filterGroups": []
+      },
+      "request": {
+        "id": "167367088369"
+      },
+      "isLoading": false,
+      "meta": {
+        "title": "Дентал Сити, стоматологическая клиника, ул. Богданова, 79, Нахичевань, Ростов-на-Дону — Яндекс Карты",
+        "breadcrumbs": [
+          {
+            "name": "Карты",
+            "type": "root",
+            "url": "https://yandex.ru/maps/"
+          },
+          {
+            "name": "Ростов‑на‑Дону",
+            "type": "region",
+            "url": "https://yandex.ru/maps/39/rostov-na-donu/",
+            "region": {
+              "center": [
+                39.718813,
+                47.222109
+              ],
+              "zoom": 12
+            }
+          },
+          {
+            "category": {
+              "id": "184106132",
+              "name": "Стоматологическая клиника",
+              "class": "dental",
+              "seoname": "dental_clinic",
+              "pluralName": "Стоматологии"
+            },
+            "name": "Стоматологии",
+            "type": "category",
+            "url": "https://yandex.ru/maps/39/rostov-na-donu/category/dental_clinic/184106132/"
+          }
+        ]
+      },
+      "tab": "overview",
+      "mobileViewState": "expanded",
+      "tabletViewTop": {
+        "current": 0,
+        "delta": 0,
+        "start": 0,
+        "min": 0,
+        "expanded": 0,
+        "mini": 0,
+        "micro": 0,
+        "max": 0,
+        "offset": 0
+      },
+      "id": "1886e006-b14b-4e80-86a3-69198a0de59f"
+    }
+  ],
+  "loadingErrors": [],
+  "map": {
+    "isEditing": false,
+    "isInAction": false,
+    "isHoverForceEnabled": false,
+    "effectiveZoomRounding": "snap",
+    "ready": false,
+    "fullReady": false,
+    "type": "map",
+    "mode": "raster",
+    "camera": {
+      "azimuth": 0,
+      "tilt": 0
+    },
+    "size": {
+      "width": 1200,
+      "height": 1080
+    },
+    "offset": {
+      "left": 720,
+      "top": 0,
+      "bottom": 0,
+      "right": 0
+    },
+    "location": {
+      "center": [
+        39.777578000000005,
+        47.22643000700914
+      ],
+      "zoom": 14,
+      "span": [
+        0.09441375732421875,
+        0.056130263657081514
+      ],
+      "bounds": [
+        [
+          39.730371121337896,
+          47.198357399514784
+        ],
+        [
+          39.824784878662115,
+          47.254487663171865
+        ]
+      ]
+    },
+    "margin": [
+      70,
+      50,
+      50,
+      50
+    ],
+    "modeFutureSelected": true
+  },
+  "homePanel": {
+    "isLoading": false,
+    "types": [
+      "home"
+    ]
+  },
+  "search": {
+    "visitedBusinesses": [],
+    "businessesInside": {}
+  },
+  "reviews": {
+    "businessReviews": {},
+    "ranking": "by_relevance_org"
+  },
+  "form": {
+    "formType": {
+      "id": "common"
+    },
+    "text": ""
+  },
+  "whatsherePreview": null,
+  "ruler": {
+    "type": "ruler",
+    "isEnabled": false,
+    "points": []
+  },
+  "panoramas": {
+    "isLayerEnabled": false,
+    "isStreetLayerAvailable": true,
+    "isAirLayerAvailable": true,
+    "loadingPanorama": null
+  },
+  "photos": {
+    "isLayerEnabled": false
+  },
+  "mrc": {
+    "isLayerEnabled": false,
+    "isPlaying": false,
+    "graphType": "road",
+    "photoCache": {}
+  },
+  "addPhotos": {
+    "isOpen": false
+  },
+  "feedback": {
+    "isCommonFeedbackOpened": false,
+    "allowObjectSelectionOnMap": false
+  },
+  "ugcProfile": {
+    "assignments": {
+      "editOrganizationStatusAssignment": {
+        "isLoaded": false,
+        "isLoading": false,
+        "items": [],
+        "areAllLoaded": false,
+        "isReloadNeeded": false
+      },
+      "united": {
+        "isLoaded": false,
+        "isLoading": false,
+        "items": [],
+        "areAllLoaded": false,
+        "isReloadNeeded": false
+      }
+    },
+    "reviews": {
+      "isLoaded": false,
+      "isLoading": false,
+      "items": [],
+      "areAllLoaded": false,
+      "isReloadNeeded": false
+    },
+    "feedback": {
+      "isLoaded": false,
+      "isLoading": false,
+      "items": [],
+      "areAllLoaded": false,
+      "isReloadNeeded": false
+    },
+    "feedbackDrafts": {
+      "isInited": false,
+      "items": [],
+      "hasError": false
+    },
+    "photos": {
+      "account": {
+        "isLoaded": false,
+        "isLoading": false,
+        "items": [],
+        "areAllLoaded": false,
+        "isReloadNeeded": false
+      },
+      "organization": {
+        "isLoaded": false,
+        "isLoading": false,
+        "items": [],
+        "areAllLoaded": false,
+        "isReloadNeeded": false
+      },
+      "data": {
+        "tab": "organization"
+      }
+    },
+    "mrc": {
+      "isLoaded": false,
+      "isLoading": false,
+      "items": [],
+      "areAllLoaded": false,
+      "isReloadNeeded": false
+    },
+    "impressions": {
+      "isLoaded": false,
+      "isLoading": false,
+      "items": [],
+      "areAllLoaded": false,
+      "isReloadNeeded": false
+    },
+    "panoramas": {
+      "isLoaded": false,
+      "isLoading": false,
+      "items": [],
+      "areAllLoaded": false,
+      "isReloadNeeded": false
+    }
+  },
+  "loginDialog": {
+    "isOpen": false
+  },
+  "placemarks": {},
+  "geolocation": {
+    "isStarted": false,
+    "currentPosition": null,
+    "isAuto": false,
+    "isWatching": false,
+    "lastTimeUpdate": 1784649146083,
+    "error": null
+  },
+  "bodyIndents": null,
+  "mapRegion": {
+    "id": 39,
+    "type": 6,
+    "capitalId": 0,
+    "hierarchy": [
+      225,
+      11029,
+      39
+    ],
+    "seoname": "rostov-na-donu",
+    "bounds": [
+      [
+        39.555104,
+        47.127347962045626
+      ],
+      [
+        39.882521999999994,
+        47.31670096204562
+      ]
+    ],
+    "longitude": 39.718813,
+    "latitude": 47.222109,
+    "zoom": 12,
+    "names": {
+      "ablative": "",
+      "accusative": "Ростов‑на‑Дону",
+      "dative": "Ростову‑на‑Дону",
+      "directional": "",
+      "genitive": "Ростова‑на‑Дону",
+      "instrumental": "Ростовом‑на‑Дону",
+      "locative": "",
+      "nominative": "Ростов‑на‑Дону",
+      "preposition": "в",
+      "prepositional": "Ростове‑на‑Дону"
+    }
+  },
+  "traffic": {
+    "isLayerEnabled": false,
+    "isPanelOpen": false,
+    "level": null,
+    "infoLayerShown": true,
+    "settings": {
+      "providerKey": "traffic#actual",
+      "state": null
+    },
+    "trafficEvents": null,
+    "currentTrafficEvent": null
+  },
+  "masstransit": {
+    "isFilterLayerEnabled": false,
+    "isLayerShown": false,
+    "isLayerEnabled": false,
+    "isLayerEnabledOnAnotherZoom": false,
+    "vehicles": [],
+    "seoVehicles": []
+  },
+  "masstransitBookmarks": {
+    "hasInitError": false,
+    "highlightedStopId": null,
+    "actions": {},
+    "stops": null,
+    "lines": null
+  },
+  "bookmarks": {
+    "highlightedId": null,
+    "rootFolder": null,
+    "subscriptionLists": null,
+    "sharedLists": null,
+    "publicList": null,
+    "contributions": {},
+    "pendingContributionRefetchFolderIds": null,
+    "hasInitError": false,
+    "hasSyncListsError": false,
+    "hasPlacesInitError": false,
+    "hasActionError": false,
+    "currentAction": null,
+    "actions": {},
+    "searchResults": {},
+    "cachedCoordinates": {},
+    "isBanned": false
+  },
+  "parking": {
+    "isLayerShown": false,
+    "isLayerEnabled": true,
+    "center": null
+  },
+  "clearHistoryDialogOpened": false,
+  "clearHistorySuccessPopupShown": false,
+  "collapsedSidebar": false,
+  "defaultMobileViewState": "expanded",
+  "tabletViewTop": {
+    "current": 0,
+    "delta": 0,
+    "start": 0,
+    "min": 0,
+    "expanded": 0,
+    "mini": 0,
+    "micro": 0,
+    "max": 0,
+    "offset": 0
+  },
+  "isHeaderFocused": false,
+  "shouldForceOpenSuggest": false,
+  "isHeaderShown": true,
+  "hotelsBooking": {
+    "dates": {
+      "from": {
+        "@@date": "2026-07-22T15:52:26.083Z"
+      },
+      "to": {
+        "@@date": "2026-07-23T15:52:26.083Z"
+      }
+    },
+    "guests": {
+      "adults": 1,
+      "childrenAges": []
+    },
+    "breakfast": false,
+    "freeCancellation": false
+  },
+  "posts": {
+    "byBusinessId": {},
+    "byUri": {}
+  },
+  "routes": {
+    "isMrcPlayerHidden": false,
+    "isRoutePointDragging": false,
+    "defaults": {
+      "cargo": {
+        "presets": [],
+        "activeId": null
+      }
+    }
+  },
+  "promoType": "daas",
+  "stackActionsCount": 0,
+  "metro": {
+    "isSchemeReady": false
+  },
+  "closedNotifications": [],
+  "indoor": {
+    "levelId": null,
+    "plans": null
+  },
+  "stories": {
+    "storyCache": {},
+    "businessCache": {}
+  },
+  "share": {
+    "isExpanded": false
+  },
+  "timeContext": {
+    "hydrationPhaseTime": {
+      "@@date": "2026-07-21T15:52:26.083Z"
+    }
+  },
+  "mapControlsState": {
+    "isMobileControlsHidden": false,
+    "savedPanoramasPhotosLayer": "panorama"
+  },
+  "storiesVisitedCache": {},
+  "tabs": {},
+  "nightOverlay": {
+    "isShown": false
+  },
+  "fines": {},
+  "communication": {
+    "hint": {
+      "items": [],
+      "shownHintIds": []
+    },
+    "notification": {
+      "items": []
+    }
+  },
+  "discoveryHomeFeed": {
+    "intents": [
+      {
+        "slug": "seasonal_summer_june",
+        "caption": "☀️ Лето"
+      },
+      {
+        "slug": "hungry",
+        "caption": "🥗 Поесть"
+      },
+      {
+        "slug": "sight",
+        "caption": "🌳 Погулять"
+      },
+      {
+        "slug": "with_kids",
+        "caption": "🧸️ С детьми"
+      },
+      {
+        "slug": "leisure",
+        "caption": "🎤 Развлечься"
+      },
+      {
+        "slug": "drink",
+        "caption": "🍷 Выпить"
+      }
+    ]
+  },
+  "locationSharing": {
+    "sharingDialog": {
+      "isVisible": false,
+      "type": "app-link"
+    }
+  }
+}

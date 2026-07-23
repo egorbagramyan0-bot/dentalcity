@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="50%" stop-color="#F8F8FA" stop-opacity="1" />
+      <stop offset="100%" stop-color="#F0F0F3" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4F4F7" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#E8E8EC" stop-opacity="0.4" />
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAEAEA" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#FAFAFC" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="1440" height="900" fill="url(#grad1)" />
+
+  <!-- Top-right smooth flowing wave curve -->
+  <path d="M 600 0 
+           C 850 150, 1100 80, 1440 300 
+           L 1440 0 Z" 
+        fill="url(#waveGrad1)" />
+
+  <!-- Bottom-left smooth flowing wave curve -->
+  <path d="M 0 450 
+           C 350 350, 600 650, 1100 900 
+           L 0 900 Z" 
+        fill="url(#waveGrad2)" />
+
+  <!-- Middle subtle organic arc -->
+  <path d="M 0 200 
+           C 400 120, 800 380, 1440 220 
+           L 1440 900 L 0 900 Z" 
+        fill="#F6F6F9" opacity="0.4" />
+</svg>

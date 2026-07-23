@@ -1,0 +1,12 @@
+{
+  "name": "dentalcity-website",
+  "version": "1.0.0",
+  "description": "Официальный сайт стоматологической клиники Дентал Сити (Ростов-на-Дону, 24/7)",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y serve -l 3000 ."
+  },
+  "keywords": ["dental", "стоматология", "ростов-на-дону", "дентал сити"],
+  "author": "Dental City",
+  "license": "MIT"
+}
