@@ -1990,7 +1990,7 @@ button, input, select, textarea {
 .sm-panel-list {
   list-style: none;
   padding: 0;
-  margin: 40px 0;
+  margin: 40px 0 24px 0;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -2035,7 +2035,7 @@ button, input, select, textarea {
 }
 
 .sm-socials {
-  margin-top: 32px;
+  margin-top: 4px;
 }
 
 .sm-socials-title {
